@@ -1,0 +1,22 @@
+{{#org-footer-container}}
+    <section class="footer-container">
+        <div class="container d-flex justify-content-between align-items-start flex-wrap">
+            <div class=" col-lg-6 col-sm-12 ">
+                <h1 class="color-white maxw-480">{{title-1-contacts}}</h1>
+                <div class="footer-container__blocks-wrapp d-sm-flex align-items-start flex-wrap d-block">
+                    {{> ../molecules/footer-container-item}}
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12  d-flex justify-content-end flex-wrap">
+                <h1 class="color-white maxw-480 text-left">{{title-2-contacts}}</h1>
+                <form class="footer-container__contact-form-container">
+                    <input type="text" placeholder="Ім'я: "/>
+                    <input type="text" placeholder="Прізвище: "/>
+                    <input type="text" placeholder="Номер телефону: "/>
+                    <textarea rows="4" placeholder="Текст"></textarea>
+                    <button type="submit">Відправити</button>
+                </form>
+            </div>
+        </div>
+    </section>
+{{/org-footer-container}}

@@ -1,0 +1,17 @@
+{{#org-what-you-need}}
+    <section class="what-you-need">
+        <div class="container">
+            {{> ../molecules/title-h2 }}
+            <div class="what-you-need__information d-flex justify-content-between align-items-center">
+                {{#description}}
+                <div class="what-you-need__information__description">
+                    <p>{{{description}}}</p>
+                </div>
+                {{/description}}
+                <div class="what-you-need__information__wrapper d-flex align-items-start flex-wrap">
+                    {{> ../molecules/what-you-need-item}}
+                </div>
+            </div>
+        </div>
+    </section>
+{{/org-what-you-need}}

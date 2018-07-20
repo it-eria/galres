@@ -1,0 +1,32 @@
+{{#org-about-company}}
+    <section class="about-company">
+        <div class="container">
+            {{> ../molecules/title-h2}}
+            <div class=" justify-content-between d-block align-items-start d-lg-flex">
+                {{#about-description-left}}
+                    <div class="col-lg-6 col-sm-12 col-md-12 clearfix">
+                        <div class="separator mb-3 mt-3 mt-lg-3"></div>
+                        <div class="description-about">
+                            {{{about-description-left}}}
+                        </div>
+                        <div class="separator  mt-3"></div>
+                    </div>
+                {{/about-description-left}}
+                {{#about-description-right}}
+                    <div class="col-lg-6 col-sm-12 col-md-12 clearfix">
+
+                        <div class="separator mb-3 mt-3 mt-lg-3 float-right"></div>
+                        <div class="description-about d-inline-block ">
+                            {{{about-description-right}}}
+                        </div>
+                        <div class="separator  mt-3 float-right"></div>
+
+                    </div>
+                {{/about-description-right}}
+            </div>
+
+            {{> ../organisms/advantages_wrapper}}
+
+        </div>
+    </section>
+{{/org-about-company}}

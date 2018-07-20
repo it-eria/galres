@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.advantages-slider {
+  .slick-next {
+    right: -15px;
+    &:before {
+      content: url("../../assets/img/nav-right.png");
+    }
+  }
+
+  .slick-prev {
+    left: -15px;
+    &:before {
+      content: url("../../assets/img/nav-left.png");
+    }
+  }
+}
+
+
+.blue-bg {
+  background-color: #0a1c2e;
+}
+
+.slick-initialized .slick-slide {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  &:focus {
+    outline: none;
+    color: inherit;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-60 {
+  margin-right: 60px;
+}
+
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.ml-60 {
+  margin-left: 60px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.minw-100 {
+  min-width: 100px;
+}
+
+.mtop-50 {
+  margin-top: 50px;
+}
+
+.color-white {
+  color: #fff;
+  h2, span {
+    color: #fff !important;
+  }
+
+}

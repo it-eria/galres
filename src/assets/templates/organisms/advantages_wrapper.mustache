@@ -1,0 +1,23 @@
+{{#org-advantages_wrapper}}
+    <div class="advantages">
+        <div class="container sides-line-style {{class-adv}}">
+            {{> ../molecules/title-h2}}
+            <div class="center-logotype-adv {{class-name}}">
+                <h3 class="advantages-logo">ГалРес</h3>
+            </div>
+            <div class="advantages__wrapper ">
+                {{> ../molecules/advantages-item}}
+            </div>
+        </div>
+        <div class="container mtop-50">
+            {{#title-bottom}}
+                <div class="title-h2  pb-40 pt-40 text-center">
+                    <div class="container d-flex justify-content-center align-items-center flex-column">
+                        <h2 class="text-center">{{{title-bottom}}}</h2>
+                        {{#subtitle-bottom}}<span>{{{subtitle-bottom}}}</span>{{/subtitle-bottom}}
+                    </div>
+                </div>
+            {{/title-bottom}}
+        </div>
+    </div>
+{{/org-advantages_wrapper}}

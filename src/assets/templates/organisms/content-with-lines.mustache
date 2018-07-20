@@ -1,0 +1,20 @@
+{{#org-content-with-lines}}
+    <section class="content-with-lines">
+        <div class="container">
+            <div class="clearfix">
+                {{#title-content}}
+                    <div class="title-about">
+                        <h2>{{title-content}}</h2>
+                    </div>
+                {{/title-content}}
+                {{#description-content}}
+                    <div class="separator mb-3 mt-3 mt-lg-3 float-left"></div>
+                    <div class="description-about d-inline-block">
+                        {{{description-content}}}
+                    </div>
+                    <div class="separator mb-3 mt-3 mt-lg-3 float-left"></div>
+                {{/description-content}}
+            </div>
+        </div>
+    </section>
+{{/org-content-with-lines}}

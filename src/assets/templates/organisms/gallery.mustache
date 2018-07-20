@@ -1,0 +1,11 @@
+{{#org-gallery}}
+    <section class="gallery-container">
+        <div class="container">
+            {{> ../molecules/title-h2}}
+            <div class="gallery-container__wrapper d-md-flex align-items-start justify-content-center">
+                {{> ../molecules/gallery-item}}
+            </div>
+            {{#show-more-link}}<a href="{{{show-more-link}}}" class="about-btn m-auto pt-2 pb-2 justify-content-center">Побачити більше</a>{{/show-more-link}}
+        </div>
+    </section>
+{{/org-gallery}}

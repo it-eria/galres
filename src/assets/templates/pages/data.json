@@ -1,0 +1,968 @@
+{
+  "p-index": {
+    "head": {
+      "title": "Home page"
+    },
+    "org-header": {
+      "mol-header-first-line": true,
+      "mol-header-center-line": {
+        "email": "akr.balans@gmail.com",
+        "email-icon": "assets/img/email-icon.png",
+        "location": "м. Львів, вул. Зелена, б. 149. оф.321",
+        "location-icon": "assets/img/location-icon.png",
+        "whatsapp-icon": "assets/img/whatsapp-icon.png",
+        "whatsapp-url": "#",
+        "viber-icon": "assets/img/viber-icon.png",
+        "viber-url": "#",
+        "telegram-icon": "assets/img/telegram-icon.png",
+        "telegram-url": "#",
+        "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
+        "mobile-phone-icon-url": "assets/img/phone-icon.png"
+      },
+      "mol-header-nav": true
+    },
+    "org-header-home-category": {
+      "mol-header-home-category-item": [
+        {
+          "title": "Дачні будиночки",
+          "image-url": "assets/img/header-slide-1.jpg"
+        },
+        {
+          "title": "Будівельні вагони",
+          "image-url": "assets/img/header-slide-2.jpg"
+        },
+        {
+          "title": "Вагони для бізнесу",
+          "image-url": "assets/img/header-slide-3.jpg"
+        },
+        {
+          "title": "Пости охорони",
+          "image-url": "assets/img/header-slide-4.jpg"
+        },
+        {
+          "title": "Торгові будки",
+          "image-url": "assets/img/header-slide-5.jpg"
+        }
+      ],
+      "mol-mob-contacts-info-main": {
+        "email": "akr.balans@gmail.com",
+        "email-icon": "assets/img/footer-email-icon-white.png",
+        "location": "м. Львів, вул. Зелена, б. 149. оф.321",
+        "location-icon": "assets/img/footer-location-icon-white.png",
+        "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
+        "mobile-phone-icon-url": "assets/img/footer-phone-icon-white.png"
+      },
+      "mol-title-h2": {
+        "title": "Виробництво та продаж каркасних мобільних споруд",
+        "subtitle": "Якісно!  Недорого!  Швидко!"
+      }
+    },
+    "org-advantages_wrapper": {
+      "mol-advantages-item": [
+        {
+          "adv-item-title": "10 років на ринку України",
+          "adv-item-img": "assets/img/adv-11.png"
+        },
+        {
+          "adv-item-title": "Надійність",
+          "adv-item-img": "assets/img/adv-22.png"
+        },
+        {
+          "adv-item-title": "Доступна ціна",
+          "adv-item-img": "assets/img/adv-3.png"
+        },
+        {
+          "adv-item-title": "Висока якість",
+          "adv-item-img": "assets/img/adv-4.png"
+        },
+        {
+          "adv-item-title": "Швидкість",
+          "adv-item-img": "assets/img/adv-5.png"
+        },
+        {
+          "adv-item-title": "Більше 1000 вагонів в каталозі",
+          "adv-item-img": "assets/img/adv-6.png"
+        }
+      ],
+      "mol-title-h2": {
+        "title": "Ключові переваги компанії",
+        "subtitle": ""
+      },
+      "title-bottom": "<strong>Компанія № 1</strong> у Львові по виробництву <strong>сучасних</strong> архітектурних форм на основі металічного каркасу",
+      "subtitle-bottom": "Коли важлива вартість!  Коли необхідна якість!  Коли часу обмаль!"
+    },
+    "org-conditions-for-business": {
+      "mol-title-h2": {
+        "color-white": "color-white",
+        "title": "Ви бажаєте відкрити або розширити свій бізнес?",
+        "subtitle": "Вам потрібні сучасні умови для:"
+      },
+      "mol-conditions-for-business-item": [
+        {
+          "conditions-img": "assets/img/modern-conditions-1.png",
+          "conditions-title": "Надання послуг"
+        },
+        {
+          "conditions-img": "assets/img/modern-conditions-2.png",
+          "conditions-title": "Зберігання  технік або продукції"
+        },
+        {
+          "conditions-img": "assets/img/modern-conditions-3.png",
+          "conditions-title": "Ведення виробництва"
+        },
+        {
+          "conditions-img": "assets/img/modern-conditions-4.png",
+          "conditions-title": "Інших бізнес процесів"
+        }
+      ]
+    },
+    "org-what-you-need": {
+      "mol-what-you-need-item": [
+        {
+          "need-img": "assets/img/you-need-ico-1.png",
+          "need-descr": "Енергоефективність"
+        },
+        {
+          "need-img": "assets/img/you-need-ico-2.png",
+          "need-descr": "Швидке будівництво"
+        },
+        {
+          "need-img": "assets/img/you-need-ico-3.png",
+          "need-descr": "Сучасний дизайн"
+        },
+        {
+          "need-img": "assets/img/you-need-ico-4.png",
+          "need-descr": "Термостійкість"
+        },
+        {
+          "need-img": "assets/img/you-need-ico-5.png",
+          "need-descr": "Будівництво під ключ"
+        },
+        {
+          "need-img": "assets/img/you-need-ico-6.png",
+          "need-descr": "Міцний конструктив"
+        }
+      ],
+      "mol-title-h2": {
+        "title": "Ми знаємо, що вам потрібно",
+        "subtitle": "Найбільш ефективно виконують ці задачі -  <strong>Швидкі монтажі і енергоефективні будівлі</strong>"
+      },
+      "description": "Найважливішою якістю для будівлі є саме енергоефективність від цього багато в чому залежить успіх вашого бізнесу, але далеко не всі сталеві будівлі є енергоефективними і більшість з них вже експлуатуються в Україні.<br><br>Багато власників такий будівель зустрічаються з такими проблемами:"
+    },
+    "org-subscribe": {
+      "bg-image": "assets/img/bg-1.png",
+      "mol-title-h2": {
+        "title": "Залиште заявку",
+        "subtitle": "Ви маєте можливіть залишити свої контакти, щоб ми з вами зв’язались"
+      },
+      "mol-subscribe-form": {
+        "subscribe-name": "Ім'я",
+        "subscribe-phone": "Телефон",
+        "subscribe-btn": "Відправити"
+      }
+    },
+    "org-our-works": {
+      "mol-title-h2": {
+        "title": "Наші вироби",
+        "subtitle": ""
+      },
+      "mol-our-work-item": [
+        {
+          "url": "#1",
+          "img": "assets/img/our-works-1.png",
+          "title": "Вагончик Будівельний",
+          "size": "(6.0х2.5х2.5м)",
+          "price": "1500"
+        },
+        {
+          "url": "#2",
+          "img": "assets/img/our-works-2.png",
+          "title": "Вагончик Будівельний",
+          "size": "(6.0х2.5х2.5м)",
+          "price": "1500"
+        },
+        {
+          "url": "#3",
+          "img": "assets/img/our-works-3.png",
+          "title": "Вагончик Будівельний",
+          "size": "(6.0х2.5х2.5м)",
+          "price": "1500"
+        },
+        {
+          "url": "#4",
+          "img": "assets/img/our-works-4.png",
+          "title": "Вагончик Будівельний",
+          "size": "(6.0х2.5х2.5м)",
+          "price": "1500"
+        },
+        {
+          "url": "#5",
+          "img": "assets/img/our-works-5.png",
+          "title": "Вагончик Будівельний",
+          "size": "(6.0х2.5х2.5м)",
+          "price": "1500"
+        },
+        {
+          "url": "#6",
+          "img": "assets/img/our-works-6.png",
+          "title": "Вагончик Будівельний",
+          "size": "(6.0х2.5х2.5м)",
+          "price": "1500"
+        }
+      ],
+      "mol-work-sidebar": {
+        "cat-title": "Каталог",
+        "mol-work-sidebar-item": [
+          {
+            "cat-item": "Будівельні вагончики"
+          },
+          {
+            "cat-item": "Магазини / Кіоски / Павільйони"
+          },
+          {
+            "cat-item": "Дачні будиночки"
+          },
+          {
+            "cat-item": "Склади, контейнери"
+          },
+          {
+            "cat-item": "Блок-пости охорони"
+          },
+          {
+            "cat-item": "Торгові кіоски"
+          },
+          {
+            "cat-item": "Металоконструкції каркасні"
+          },
+          {
+            "cat-item": "Бесідки / альтанки з дерева"
+          },
+          {
+            "cat-item": "Мийки, СТО, кафе, МАФ"
+          },
+          {
+            "cat-item": "Оренда вагончиків, та ін."
+          }
+        ]
+      }
+    },
+    "org-advantages-slider": {
+      "mol-advantages-slider-item": [
+        {
+          "list-title": "Переваги профнастилу:",
+          "mol-advantages-slider-info-list": [
+            {
+              "list-name": "Універсальність"
+            },
+            {
+              "list-name": "Простота та швидкість монтажу"
+            },
+            {
+              "list-name": "Довговічність"
+            },
+            {
+              "list-name": "Велика палітра кольорових рішень"
+            },
+            {
+              "list-name": "Низька ціна"
+            }
+          ],
+          "img-slide": "assets/img/home-slider-img.png"
+        },
+        {
+          "list-title": "Переваги профнастилу:",
+          "mol-advantages-slider-info-list": [
+            {
+              "list-name": "Універсальність"
+            },
+            {
+              "list-name": "Простота та швидкість монтажу"
+            },
+            {
+              "list-name": "Довговічність"
+            },
+            {
+              "list-name": "Велика палітра кольорових рішень"
+            },
+            {
+              "list-name": "Низька ціна"
+            }
+          ],
+          "img-slide": "assets/img/home-slider-img.png"
+        },
+        {
+          "list-title": "Переваги профнастилу:",
+          "mol-advantages-slider-info-list": [
+            {
+              "list-name": "Універсальність"
+            },
+            {
+              "list-name": "Простота та швидкість монтажу"
+            },
+            {
+              "list-name": "Довговічність"
+            },
+            {
+              "list-name": "Велика палітра кольорових рішень"
+            },
+            {
+              "list-name": "Низька ціна"
+            }
+          ],
+          "img-slide": "assets/img/home-slider-img.png"
+        }
+      ],
+      "mol-title-h2": {
+        "title": "Для покрівлі використовуваним профнастил",
+        "subtitle": "",
+        "color-white": "color-white"
+      }
+    },
+    "org-about": {
+      "mol-about-content": {
+        "about-title": "Про компанію",
+        "about-img": "assets/img/about.png",
+        "about-description": "<p>Шановні клієнти!</p><br><p>Раді вітати Вас на нашому сайті, де ви можете ознайомитись із продукцією, яку Ви можете купити або замовити.</p><br><p>Наша компанія займається виготовленням та монтажем металоконструкцій різного ступеня складності. </p><br><p>Надаємо повний спектр послуг з проектування, виготовлення, монтажу, доставки виробів з металу та дерева:</p><br><p>МАФ, Вагончики, Павільйони, Кіоски, Контейнери, Блок- Пости Охорони, Металоконструкції, Дачні Будиночки, Кунги, Будки Будівельні, Дерев`яні Будинки та інші Конструкції Каркасного типу на основі металу та дерева.</p>",
+        "about-url": "#"
+      }
+    },
+    "org-footer-container": {
+      "title-1-contacts": "Контакти",
+      "title-2-contacts": "Зворотній звязок",
+      "mol-footer-container-item": [
+        {
+          "img-icon": "assets/img/footer-location-icon.png",
+          "title-item": "Адреса:",
+          "tag": "p",
+          "info1": "м. Львів, вул. Зелена, б. 149. оф.321",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "",
+          "class-icons": ""
+        },
+
+        {
+          "img-icon": "assets/img/footer-phone-icon.png",
+          "title-item": "Телефони:",
+          "tag": "p",
+          "info1": "+38 (067) 67 24 531",
+          "info2": "+38 (067) 67 24 531",
+          "whatsapp-ico": "assets/img/whatsapp-icon.png",
+          "whatsapp-link": "http://google.com",
+          "viber-ico": "assets/img/viber-icon.png",
+          "viber-link": "http://google.com",
+          "telegram-ico": "assets/img/telegram-icon.png",
+          "telegram-link": "http://google.com",
+          "url-href": "",
+          "class-icons": ""
+        },
+        {
+          "img-icon": "assets/img/footer-icon-time.png",
+          "title-item": "Режим роботи:",
+          "tag": "p",
+          "info1": "Понеділок – П`ятниця 9:00 - 20:00 (без перерви)",
+          "info2": "Субота – по дзвінку, з 10:00 до 18:00 ",
+          "info3": "Неділя – вихідний",
+          "info4": "Дзвінки приймаються з 09:00 до 19:00",
+          "info5": "",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "",
+          "ico1": "",
+          "ico2": "",
+          "ico3": "",
+          "ico4": "",
+          "ico5": "",
+          "class-icons": ""
+        },
+
+        {
+          "img-icon": "",
+          "title-item": "Соціальні мережі:",
+          "tag": "a",
+          "info1": "Facebook",
+          "info2": "Instagram",
+          "info3": "",
+          "info4": "",
+          "info5": "",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "#",
+          "ico1": "assets/img/footer-icon-fb.png",
+          "ico2": "assets/img/footer-icon-insta.png",
+          "ico3": "",
+          "ico4": "",
+          "ico5": "",
+          "class-icons": "social-icons-footer"
+        },
+        {
+          "img-icon": "assets/img/footer-email-icon.png",
+          "title-item": "Електронна пошта:",
+          "tag": "a",
+          "info1": "akr.balans@gmail.com",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "mailto:akr.balans@gmail.com",
+          "class-icons": ""
+        }
+
+
+      ]
+    },
+    "org-gmap": true,
+    "mol-copyright": {
+      "copyright": "ГалРес 2018"
+    },
+    "foot": {
+      "vendor-scripts": {
+        "bootstrap": true,
+        "jquery": true,
+        "slick-slider": true,
+        "map": true
+      }
+    }
+  },
+
+  "p-about": {
+    "head": {
+      "title": "About page"
+    },
+    "org-header": {
+      "mol-header-first-line": true,
+      "mol-header-center-line": {
+        "email": "akr.balans@gmail.com",
+        "email-icon": "assets/img/email-icon.png",
+        "location": "м. Львів, вул. Зелена, б. 149. оф.321",
+        "location-icon": "assets/img/location-icon.png",
+        "whatsapp-icon": "assets/img/whatsapp-icon.png",
+        "whatsapp-url": "#",
+        "viber-icon": "assets/img/viber-icon.png",
+        "viber-url": "#",
+        "telegram-icon": "assets/img/telegram-icon.png",
+        "telegram-url": "#",
+        "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
+        "mobile-phone-icon-url": "assets/img/phone-icon.png"
+      },
+      "mol-header-nav": true
+    },
+    "org-footer-container": {
+      "title-1-contacts": "Контакти",
+      "title-2-contacts": "Зворотній звязок",
+      "mol-footer-container-item": [
+        {
+          "img-icon": "assets/img/footer-location-icon.png",
+          "title-item": "Адреса:",
+          "tag": "p",
+          "info1": "м. Львів, вул. Зелена, б. 149. оф.321",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "",
+          "class-icons": ""
+        },
+
+        {
+          "img-icon": "assets/img/footer-phone-icon.png",
+          "title-item": "Телефони:",
+          "tag": "p",
+          "info1": "+38 (067) 67 24 531",
+          "info2": "+38 (067) 67 24 531",
+          "whatsapp-ico": "assets/img/whatsapp-icon.png",
+          "whatsapp-link": "http://google.com",
+          "viber-ico": "assets/img/viber-icon.png",
+          "viber-link": "http://google.com",
+          "telegram-ico": "assets/img/telegram-icon.png",
+          "telegram-link": "http://google.com",
+          "url-href": "",
+          "class-icons": ""
+        },
+        {
+          "img-icon": "assets/img/footer-icon-time.png",
+          "title-item": "Режим роботи:",
+          "tag": "p",
+          "info1": "Понеділок – П`ятниця 9:00 - 20:00 (без перерви)",
+          "info2": "Субота – по дзвінку, з 10:00 до 18:00 ",
+          "info3": "Неділя – вихідний",
+          "info4": "Дзвінки приймаються з 09:00 до 19:00",
+          "info5": "",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "",
+          "ico1": "",
+          "ico2": "",
+          "ico3": "",
+          "ico4": "",
+          "ico5": "",
+          "class-icons": ""
+        },
+
+        {
+          "img-icon": "",
+          "title-item": "Соціальні мережі:",
+          "tag": "a",
+          "info1": "Facebook",
+          "info2": "Instagram",
+          "info3": "",
+          "info4": "",
+          "info5": "",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "#",
+          "ico1": "assets/img/footer-icon-fb.png",
+          "ico2": "assets/img/footer-icon-insta.png",
+          "ico3": "",
+          "ico4": "",
+          "ico5": "",
+          "class-icons": "social-icons-footer"
+        },
+        {
+          "img-icon": "assets/img/footer-email-icon.png",
+          "title-item": "Електронна пошта:",
+          "tag": "a",
+          "info1": "akr.balans@gmail.com",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "mailto:akr.balans@gmail.com",
+          "class-icons": ""
+        }
+
+
+      ]
+    },
+    "org-gmap": true,
+    "mol-copyright": {
+      "copyright": "ГалРес 2018"
+    },
+    "foot": {
+      "vendor-scripts": {
+        "bootstrap": true,
+        "jquery": true,
+        "slick-slider": true,
+        "map": true
+      }
+    },
+    "org-about-header-image": {
+      "image": "assets/img/about.jpg",
+      "mol-title-h2": {
+        "title": "Виробництво та продаж каркасних мобільних споруд",
+        "subtitle": "Якісно!  Недорого!  Швидко!"
+      }
+    },
+    "org-about-company": {
+      "mol-title-h2": {
+        "title": "Про компанію"
+      },
+
+      "about-description-left": "Шановні клієнти! <br><br>Компанія 'ГалРес' щиро вітає Вас у нас на нашому сайті. Наше підприємство займається комплексним благоустроєм будівельних і дачних ділянок в Західному регіоні України. Чого більш за все хочеться тим, хто вирішує розпочати капітальне будівництво на відкритій ділянці, чи провести відпочинок на дачній ділянці, або вести дрібну торгівельну діяльність у відкритій місцевості? Це перш за все затишок, компактність, ну і дах над головою.",
+      "about-description-right": "'ГалРес'<br><br>Виробничо-будівельна компанія, котра спеціалізується на постачанні для будівельних майданчиків, дачних ділянок, торгівельних зон - будівельних вагончиків, контейнери, дачні дерев`яні будиночки, будівництві котеджів і бань для всесезонного користування і малими архітектурними формами (МАФ) – торговими павільйонами, кіосками, блок-постами, бесідками, госпблоками та супутніми товарами до них.",
+      "org-advantages_wrapper": {
+        "class-adv": "no-lines",
+        "class-name": "without-title-center",
+        "mol-advantages-item": [
+          {
+            "adv-item-title": "10 років на ринку України",
+            "adv-item-img": "assets/img/adv-11.png"
+          },
+          {
+            "adv-item-title": "Надійність",
+            "adv-item-img": "assets/img/adv-22.png"
+          },
+          {
+            "adv-item-title": "Доступна ціна",
+            "adv-item-img": "assets/img/adv-3.png"
+          },
+          {
+            "adv-item-title": "Висока якість",
+            "adv-item-img": "assets/img/adv-4.png"
+          },
+          {
+            "adv-item-title": "Швидкість",
+            "adv-item-img": "assets/img/adv-5.png"
+          },
+          {
+            "adv-item-title": "Більше 1000 вагонів в каталозі",
+            "adv-item-img": "assets/img/adv-6.png"
+          }
+        ],
+        "mol-title-h2": {
+          "title": "",
+          "subtitle": ""
+        },
+        "title-bottom": "",
+        "subtitle-bottom": ""
+      }
+
+    },
+    "org-about-our-wagons": {
+      "mol-about-content": {
+        "about-img": "assets/img/header-slide-3.jpg",
+        "about-description": "Наше виробництво вагончиків, МАФ та інших споруд знаходиться у місті Львів, на котрому працює кваліфікований персонал із досвідом будівництва таких конструкцій. З допомогою нашого досвіду, здійсняться будь-які ваші побажання - ви отримаєте на Вашій ділянці потрібну для вас Каркасну споруду.<br><br>На даний час на ринку представлена велика кількість компаній, що пропонують будівельні вагончики і побутівки у Львові та на Західній Україні за привабливими цінами. При придбанні таких виробів потрібно звертати особливу увагу на якість їх виготовлення, адже основне призначення вагончиків - проживання або перебування людей на короткий або довготривалий термін.",
+        "about-url": "#",
+        "about-title": "Про наші вагони"
+      }
+    },
+    "org-about-materials": [
+      {
+        "about-title": "Матеріали",
+        "about-img": "assets/img/content-about-3.jpg",
+        "about-description": "Ми використовуємо на нашому виробництві тільки нові і якісні матеріали – при виготовленні виробів з дерева, шпунтовану дошку вищого сорту, висушений калібрований брус, з хвойних дерев карпатських лісів України, а при каркасному виробництві з металу – новий метал з металобаз, натуральну базальтову вату. Уся Наша продукція містить в собі матеріали від провідних українських та європейських виробників і постачальників, що дозволяє тримати Каркасні Споруди у належній якості та за прийнятною ціною."
+      },
+      {
+        "about-title": "Виготовлення",
+        "about-img": "assets/img/content-about-4.jpg",
+        "about-description": "Терміни виготовлення Каркасних Споруд на нашому підприємстві займають від одного тижня до трьох, залежно від поточної завантаженості. За бажанням клієнта, ми завжди готові піти вам на зустріч і виконати термінове замовлення за домовленою оплатою. Модульні будівлі виробляють безпосередньо в цеху підприємства, а потім доставляють на місце з подальшим монтажем. <br><br>Географія проведення робіт не обмежується тільки у місті Львів, наші роботи ми виконуємо по всьому Західному регіону і в даний момент починаємо працювати і в інших областях України."
+      }
+    ],
+    "org-gallery": {
+      "mol-title-h2": {
+        "title": "Галерея",
+        "color-white": "color-white"
+      },
+      "mol-gallery-item": [
+        {
+          "gallery-item": "assets/img/gal-1.jpg"
+        },
+        {
+          "gallery-item": "assets/img/gal-2.jpg"
+        },
+        {
+          "gallery-item": "assets/img/gal-3.jpg"
+        },
+        {
+          "gallery-item": "assets/img/gal-4.jpg"
+        },
+        {
+          "gallery-item": "assets/img/gal-5.jpg"
+        },
+        {
+          "gallery-item": "assets/img/gal-6.jpg"
+        },
+        {
+          "gallery-item": "assets/img/gal-7.jpg"
+        },
+        {
+          "gallery-item": "assets/img/gal-8.jpg"
+        },
+        {
+          "gallery-item": "assets/img/gal-9.jpg"
+        },
+        {
+          "gallery-item": "assets/img/gal-10.jpg"
+        },
+        {
+          "gallery-item": "assets/img/gal-11.jpg"
+        },
+        {
+          "gallery-item": "assets/img/gal-12.jpg"
+        }
+      ],
+      "show-more-link": "#"
+    },
+    "org-our-videos": {
+      "mol-title-h2": {
+        "title": "Відео наших робіт"
+      },
+      "mol-our-videos-item": [
+        {
+          "video-url": "assets/img/videos/video1.mp4"
+        },
+        {
+          "video-url": "assets/img/videos/video2.mp4"
+        },
+        {
+          "video-url": "assets/img/videos/video1.mp4"
+        }
+      ]
+    }
+  },
+  "p-production": {
+    "head": {
+      "title": "Production page"
+    },
+    "org-header": {
+      "mol-header-first-line": true,
+      "mol-header-center-line": {
+        "email": "akr.balans@gmail.com",
+        "email-icon": "assets/img/email-icon.png",
+        "location": "м. Львів, вул. Зелена, б. 149. оф.321",
+        "location-icon": "assets/img/location-icon.png",
+        "whatsapp-icon": "assets/img/whatsapp-icon.png",
+        "whatsapp-url": "#",
+        "viber-icon": "assets/img/viber-icon.png",
+        "viber-url": "#",
+        "telegram-icon": "assets/img/telegram-icon.png",
+        "telegram-url": "#",
+        "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
+        "mobile-phone-icon-url": "assets/img/phone-icon.png"
+      },
+      "mol-header-nav": true
+    },
+    "org-category-skew": {
+      "mol-title-h2": {
+        "title": "Виробництво та продаж каркасних мобільних споруд",
+        "subtitle": "Якісно!  Недорого!  Швидко!",
+        "color-white": "color-white"
+      },
+      "mol-category-skew-item": [
+        {
+          "img": "assets/img/gal-1.jpg",
+          "title": "Пости охорони",
+          "url": "http://google.com"
+        },
+        {
+          "img": "assets/img/gal-2.jpg",
+          "title": "Торгові будки",
+          "url": "http://google.com"
+        },
+        {
+          "img": "assets/img/gal-3.jpg",
+          "title": "Будівельні вагони",
+          "url": "http://google.com"
+        },
+        {
+          "img": "assets/img/gal-4.jpg",
+          "title": "Дачні будиночки",
+          "url": "http://google.com"
+        },
+        {
+          "img": "assets/img/gal-5.jpg",
+          "title": "Вагони для бізнесу",
+          "url": "http://google.com"
+        }
+      ]
+    },
+    "org-our-works": {
+      "mol-title-h2": {
+        "title": "Наші вироби",
+        "subtitle": ""
+      },
+      "mol-our-work-item": [
+        {
+          "url": "#1",
+          "img": "assets/img/our-works-1.png",
+          "title": "Вагончик Будівельний",
+          "size": "(6.0х2.5х2.5м)",
+          "price": "1500"
+        },
+        {
+          "url": "#2",
+          "img": "assets/img/our-works-2.png",
+          "title": "Вагончик Будівельний",
+          "size": "(6.0х2.5х2.5м)",
+          "price": "1500"
+        },
+        {
+          "url": "#3",
+          "img": "assets/img/our-works-3.png",
+          "title": "Вагончик Будівельний",
+          "size": "(6.0х2.5х2.5м)",
+          "price": "1500"
+        },
+        {
+          "url": "#4",
+          "img": "assets/img/our-works-4.png",
+          "title": "Вагончик Будівельний",
+          "size": "(6.0х2.5х2.5м)",
+          "price": "1500"
+        },
+        {
+          "url": "#5",
+          "img": "assets/img/our-works-5.png",
+          "title": "Вагончик Будівельний",
+          "size": "(6.0х2.5х2.5м)",
+          "price": "1500"
+        },
+        {
+          "url": "#6",
+          "img": "assets/img/our-works-6.png",
+          "title": "Вагончик Будівельний",
+          "size": "(6.0х2.5х2.5м)",
+          "price": "1500"
+        }
+      ],
+      "mol-work-sidebar": {
+        "cat-title": "Каталог",
+        "mol-work-sidebar-item": [
+          {
+            "cat-item": "Будівельні вагончики"
+          },
+          {
+            "cat-item": "Магазини / Кіоски / Павільйони"
+          },
+          {
+            "cat-item": "Дачні будиночки"
+          },
+          {
+            "cat-item": "Склади, контейнери"
+          },
+          {
+            "cat-item": "Блок-пости охорони"
+          },
+          {
+            "cat-item": "Торгові кіоски"
+          },
+          {
+            "cat-item": "Металоконструкції каркасні"
+          },
+          {
+            "cat-item": "Бесідки / альтанки з дерева"
+          },
+          {
+            "cat-item": "Мийки, СТО, кафе, МАФ"
+          },
+          {
+            "cat-item": "Оренда вагончиків, та ін."
+          }
+        ]
+      }
+    },
+    "org-content-with-lines": {
+      "title-content": "Детальніше про наші вагони",
+      "description-content": "<p>Наше виробництво вагончиків, МАФ та інших споруд знаходиться у місті Львів, на котрому працює кваліфікований персонал із досвідом будівництва таких конструкцій. З допомогою нашого досвіду, здійсняться будь-які ваші побажання - ви отримаєте на Вашій ділянці потрібну для вас Каркасну споруду. На даний час на ринку представлена велика кількість компаній, що пропонують будівельні вагончики і побутівки у Львові та на Західній Україні за привабливими цінами. При придбанні таких виробів потрібно звертати особливу увагу на якість їх виготовлення, адже основне призначення вагончиків - проживання або перебування людей на короткий або довготривалий термін.</p><p>Терміни виготовлення Каркасних Споруд на нашому підприємстві займають від одного тижня до трьох, залежно від поточної завантаженості. За бажанням клієнта, ми завжди готові піти вам на зустріч і виконати термінове замовлення за домовленою оплатою.  Модульні будівлі виробляють безпосередньо в цеху підприємства, а потім доставляють на місце з подальшим монтажем. Географія проведення робіт не обмежується тільки у місті Львів, наші роботи ми виконуємо по всьому Західному регіону і в даний момент починаємо працювати і в інших областях України.</p><p>Ми докладаємо всіх зусиль для побудови довгострокових ділових відносин з клієнтами, тому для нас на першому плані - якість нашої продукції та ціна. Ми не прагнемо 'продати один раз', а намагаємося працювати так, щоб у наших клієнтів не виникало ніяких нарікань, а, навпаки, було бажання звернутися до нас повторно і порекомендувати нас своїм друзям.  Ми цінуємо кожного клієнта і завжди йдемо назустріч!</p><p>Компанія 'Галицькі-ресурси' дуже цінує своїх клієнтів, завжди піклується про зручність і комфорт, виконує доставку в строк і намагається максимально повно виконати всі побажання наших Замовників. Хороший настрій і подяка від наших клієнтів - для нас вище всього.</p>"
+
+    },
+    "org-footer-container": {
+      "title-1-contacts": "Контакти",
+      "title-2-contacts": "Зворотній звязок",
+      "mol-footer-container-item": [
+        {
+          "img-icon": "assets/img/footer-location-icon.png",
+          "title-item": "Адреса:",
+          "tag": "p",
+          "info1": "м. Львів, вул. Зелена, б. 149. оф.321",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "",
+          "class-icons": ""
+        },
+
+        {
+          "img-icon": "assets/img/footer-phone-icon.png",
+          "title-item": "Телефони:",
+          "tag": "p",
+          "info1": "+38 (067) 67 24 531",
+          "info2": "+38 (067) 67 24 531",
+          "whatsapp-ico": "assets/img/whatsapp-icon.png",
+          "whatsapp-link": "http://google.com",
+          "viber-ico": "assets/img/viber-icon.png",
+          "viber-link": "http://google.com",
+          "telegram-ico": "assets/img/telegram-icon.png",
+          "telegram-link": "http://google.com",
+          "url-href": "",
+          "class-icons": ""
+        },
+        {
+          "img-icon": "assets/img/footer-icon-time.png",
+          "title-item": "Режим роботи:",
+          "tag": "p",
+          "info1": "Понеділок – П`ятниця 9:00 - 20:00 (без перерви)",
+          "info2": "Субота – по дзвінку, з 10:00 до 18:00 ",
+          "info3": "Неділя – вихідний",
+          "info4": "Дзвінки приймаються з 09:00 до 19:00",
+          "info5": "",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "",
+          "ico1": "",
+          "ico2": "",
+          "ico3": "",
+          "ico4": "",
+          "ico5": "",
+          "class-icons": ""
+        },
+
+        {
+          "img-icon": "",
+          "title-item": "Соціальні мережі:",
+          "tag": "a",
+          "info1": "Facebook",
+          "info2": "Instagram",
+          "info3": "",
+          "info4": "",
+          "info5": "",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "#",
+          "ico1": "assets/img/footer-icon-fb.png",
+          "ico2": "assets/img/footer-icon-insta.png",
+          "ico3": "",
+          "ico4": "",
+          "ico5": "",
+          "class-icons": "social-icons-footer"
+        },
+        {
+          "img-icon": "assets/img/footer-email-icon.png",
+          "title-item": "Електронна пошта:",
+          "tag": "a",
+          "info1": "akr.balans@gmail.com",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "mailto:akr.balans@gmail.com",
+          "class-icons": ""
+        }
+
+
+      ]
+    },
+    "org-gmap": true,
+    "mol-copyright": {
+      "copyright": "ГалРес 2018"
+    },
+    "foot": {
+      "vendor-scripts": {
+        "bootstrap": true,
+        "jquery": true,
+        "slick-slider": true,
+        "map": true
+      }
+    }
+
+  }
+}
