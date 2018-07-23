@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="31a1e0cb-23de-41b2-9701-2eca0d8bfd24" name="Default" comment="">
       <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/templates/molecules/blue-btn.mustache" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/templates/molecules/catalog-content-block.mustache" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/templates/molecules/product-variable.mustache" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/templates/molecules/single-slides.mustache" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/templates/organisms/catalog-content.mustache" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/templates/organisms/production-single-content.mustache" />
       <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/templates/organisms/related-products.mustache" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/templates/pages/production-single.mustache" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/assets/templates/pages/catalog-page.mustache" />
       <change beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
       <change beforePath="$PROJECT_DIR$/build/partials/molecules/about-materials-block.html" afterPath="$PROJECT_DIR$/build/partials/molecules/about-materials-block.html" />
       <change beforePath="$PROJECT_DIR$/build/partials/molecules/advantages-item.html" afterPath="$PROJECT_DIR$/build/partials/molecules/advantages-item.html" />
@@ -50,64 +52,32 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="production-single.mustache" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/assets/templates/pages/production-single.mustache">
+          <file leaf-file-name="catalog-page.mustache" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/assets/templates/pages/catalog-page.mustache">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="24" lean-forward="true" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="production-single-content.mustache" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/production-single-content.mustache">
+          <file leaf-file-name="catalog-content.mustache" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/catalog-content.mustache">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="related-products.mustache" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/related-products.mustache">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="63" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="product-variable.mustache" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/product-variable.mustache">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="85" lean-forward="false" selection-start-line="1" selection-start-column="85" selection-end-line="1" selection-end-column="85" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_default.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/assets/scss/_default.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="640">
-                  <caret line="132" column="19" lean-forward="false" selection-start-line="132" selection-start-column="19" selection-end-line="132" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="single-slides.mustache" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/single-slides.mustache">
+          <file leaf-file-name="catalog-content-block.mustache" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/catalog-content-block.mustache">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="34">
-                  <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#149#194#0#HTML" expanded="true" />
-                  </folding>
+                  <caret line="2" column="89" lean-forward="false" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -119,11 +89,12 @@
           <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/assets/templates/pages/data.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="356">
-                  <caret line="1061" column="7" lean-forward="true" selection-start-line="1061" selection-start-column="7" selection-end-line="1061" selection-end-column="20" />
+                <state relative-caret-position="221">
+                  <caret line="1319" column="35" lean-forward="false" selection-start-line="1319" selection-start-column="35" selection-end-line="1319" selection-end-column="35" />
                   <folding>
                     <element signature="n#!!block;n#p-index#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#p-about#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#p-production#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#head#0;n#!!block;n#p-production#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#org-header#0;n#!!block;n#p-production#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#org-category-skew#0;n#!!block;n#p-production#0;n#!!top" expanded="false" />
@@ -132,26 +103,27 @@
                     <element signature="n#!!block;n#org-footer-container#0;n#!!block;n#p-production#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#mol-copyright#0;n#!!block;n#p-production#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#foot#0;n#!!block;n#p-production#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#head#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#org-header#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#org-production-single-content#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#mol-blue-btn#0;n#!!block;n#org-production-single-content#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
                     <element signature="e#34208#35329#0" expanded="false" />
                     <element signature="e#35383#35882#0" expanded="false" />
+                    <element signature="n#!!block;n#org-related-products#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
+                    <element signature="e#36022#37598#0" expanded="false" />
                     <element signature="n#!!block;n#org-footer-container#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#mol-copyright#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
                     <element signature="n#!!block;n#foot#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#head#0;n#!!block;n#p-catalog-page#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#org-header#0;n#!!block;n#p-catalog-page#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#mol-title-h2#0;n#!!block;n#org-catalog-content#0;n#!!block;n#p-catalog-page#0;n#!!top" expanded="false" />
+                    <element signature="e#41857#43433#0" expanded="false" />
+                    <element signature="e#43518#47657#0" expanded="false" />
+                    <element signature="n#!!block;n#org-footer-container#0;n#!!block;n#p-catalog-page#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#mol-copyright#0;n#!!block;n#p-catalog-page#0;n#!!top" expanded="false" />
+                    <element signature="n#!!block;n#foot#0;n#!!block;n#p-catalog-page#0;n#!!top" expanded="false" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/assets/js/script.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="419">
-                  <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-                  <folding />
                 </state>
               </provider>
             </entry>
@@ -195,36 +167,18 @@
             <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/_organisms.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="339">
-                  <caret line="151" column="3" lean-forward="false" selection-start-line="151" selection-start-column="3" selection-end-line="151" selection-end-column="3" />
+                  <caret line="583" column="34" lean-forward="false" selection-start-line="583" selection-start-column="34" selection-end-line="583" selection-end-column="34" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/data.json">
+          <file leaf-file-name="about-content.mustache" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/about-content.mustache">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="481" column="24" lean-forward="true" selection-start-line="481" selection-start-column="24" selection-end-line="481" selection-end-column="24" />
-                  <folding>
-                    <element signature="n#!!block;n#mol-header-center-line#0;n#!!top" expanded="false" />
-                    <element signature="e#668#1163#0" expanded="false" />
-                    <element signature="n#!!block;n#mol-mob-contacts-info-main#0;n#!!top" expanded="false" />
-                    <element signature="e#1580#2202#0" expanded="false" />
-                    <element signature="e#2242#2748#0" expanded="false" />
-                    <element signature="e#2778#3407#0" expanded="false" />
-                    <element signature="n#!!block;n#mol-subscribe-form#0;n#!!top" expanded="false" />
-                    <element signature="n#!!block;n#mol-work-sidebar#0;n#!!top" expanded="false" />
-                    <element signature="e#4269#5281#0" expanded="false" />
-                    <element signature="e#5315#6810#0" expanded="false" />
-                    <element signature="n#!!block;n#mol-about-content#0;n#!!top" expanded="false" />
-                    <element signature="e#7616#9985#0" expanded="false" />
-                    <element signature="n#!!block;n#mol-copyright#0;n#!!top" expanded="false" />
-                    <element signature="e#10066#10769#0" expanded="false" />
-                    <element signature="e#10796#10989#0" expanded="false" />
-                    <element signature="e#11019#11609#0" expanded="false" />
-                    <element signature="e#11637#12614#0" expanded="false" />
-                  </folding>
+                <state relative-caret-position="119">
+                  <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -253,9 +207,13 @@
         <option value="$PROJECT_DIR$/src/assets/templates/organisms/production-single-content.mustache" />
         <option value="$PROJECT_DIR$/src/assets/templates/pages/production-single.mustache" />
         <option value="$PROJECT_DIR$/src/assets/templates/organisms/data.json" />
-        <option value="$PROJECT_DIR$/src/assets/templates/pages/data.json" />
         <option value="$PROJECT_DIR$/src/assets/templates/organisms/related-products.mustache" />
+        <option value="$PROJECT_DIR$/src/assets/templates/pages/security-page.mustache" />
+        <option value="$PROJECT_DIR$/src/assets/templates/pages/data.json" />
+        <option value="$PROJECT_DIR$/src/assets/templates/pages/catalog-page.mustache" />
+        <option value="$PROJECT_DIR$/src/assets/templates/organisms/catalog-content.mustache" />
         <option value="$PROJECT_DIR$/src/assets/templates/organisms/_organisms.scss" />
+        <option value="$PROJECT_DIR$/src/assets/templates/molecules/catalog-content-block.mustache" />
       </list>
     </option>
   </component>
@@ -401,12 +359,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532328384891</updated>
-      <workItem from="1532328387419" duration="14359000" />
+      <workItem from="1532328387419" duration="24710000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14359000" />
+    <option name="totallyTimeSpent" value="24710000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -453,14 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/templates/pages/production.mustache">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/blue-btn.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -474,7 +424,7 @@
         <state relative-caret-position="34">
           <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="36" />
           <folding>
-            <element signature="e#149#194#0#HTML" expanded="true" />
+            <element signature="e#149#194#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -537,6 +487,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/production-single-content.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/templates/pages/production-single.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -545,10 +503,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/our-work-item.mustache">
+    <entry file="file://$PROJECT_DIR$/src/assets/templates/pages/production.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/related-products.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="48" />
           <folding />
         </state>
       </provider>
@@ -588,11 +554,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/templates/pages/data.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="1061" column="7" lean-forward="true" selection-start-line="1061" selection-start-column="7" selection-end-line="1061" selection-end-column="20" />
+        <state relative-caret-position="221">
+          <caret line="1319" column="35" lean-forward="false" selection-start-line="1319" selection-start-column="35" selection-end-line="1319" selection-end-column="35" />
           <folding>
             <element signature="n#!!block;n#p-index#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#p-about#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#p-production#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#head#0;n#!!block;n#p-production#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#org-header#0;n#!!block;n#p-production#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#org-category-skew#0;n#!!block;n#p-production#0;n#!!top" expanded="false" />
@@ -601,31 +568,58 @@
             <element signature="n#!!block;n#org-footer-container#0;n#!!block;n#p-production#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#mol-copyright#0;n#!!block;n#p-production#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#foot#0;n#!!block;n#p-production#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#head#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#org-header#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#org-production-single-content#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#mol-blue-btn#0;n#!!block;n#org-production-single-content#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
             <element signature="e#34208#35329#0" expanded="false" />
             <element signature="e#35383#35882#0" expanded="false" />
+            <element signature="n#!!block;n#org-related-products#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
+            <element signature="e#36022#37598#0" expanded="false" />
             <element signature="n#!!block;n#org-footer-container#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#mol-copyright#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
             <element signature="n#!!block;n#foot#0;n#!!block;n#p-production-single#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#head#0;n#!!block;n#p-catalog-page#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#org-header#0;n#!!block;n#p-catalog-page#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mol-title-h2#0;n#!!block;n#org-catalog-content#0;n#!!block;n#p-catalog-page#0;n#!!top" expanded="false" />
+            <element signature="e#41857#43433#0" expanded="false" />
+            <element signature="e#43518#47657#0" expanded="false" />
+            <element signature="n#!!block;n#org-footer-container#0;n#!!block;n#p-catalog-page#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#mol-copyright#0;n#!!block;n#p-catalog-page#0;n#!!top" expanded="false" />
+            <element signature="n#!!block;n#foot#0;n#!!block;n#p-catalog-page#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/production-single-content.mustache">
+    <entry file="file://$PROJECT_DIR$/src/assets/templates/pages/catalog-page.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/related-products.mustache">
+    <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/our-work-item.mustache">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" lean-forward="true" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="63" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/about-content.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/catalog-content.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="57" lean-forward="false" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -633,7 +627,15 @@
     <entry file="file://$PROJECT_DIR$/src/assets/templates/organisms/_organisms.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
-          <caret line="151" column="3" lean-forward="false" selection-start-line="151" selection-start-column="3" selection-end-line="151" selection-end-column="3" />
+          <caret line="583" column="34" lean-forward="false" selection-start-line="583" selection-start-column="34" selection-end-line="583" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/templates/molecules/catalog-content-block.mustache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="89" lean-forward="false" selection-start-line="2" selection-start-column="89" selection-end-line="2" selection-end-column="89" />
           <folding />
         </state>
       </provider>
