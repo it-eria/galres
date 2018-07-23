@@ -71,7 +71,6 @@
       "adv-item-img": "assets/img/adv-6.png"
     }
   ],
-
   "mol-conditions-for-business-item": [
     {
       "conditions-img": "assets/img/modern-conditions-1.png",
@@ -441,6 +440,67 @@
       "title": "Вагони для бізнесу",
       "url": "http://google.com"
     }
-  ]
+  ],
+  "mol-product-variable": [
+    {
+      "title": "Розмір:",
+      "value": "6.0х2.5x2.5 м"
+    },
+    {
+      "title": "Тип каркасу:",
+      "value": "Металева профільна труба, зварний"
+    },
+    {
+      "title": "Оздоблення стін:",
+      "value": "Блок-Хаус, Вагонка, Фальш-Брус, товщина стіни 100мм, Гідробар'єр/паробар'єр. Мінвата 100мм."
+    },
+    {
+      "title": "Оздоблення даху:",
+      "value": "Профнастил оцинкований т14, мінвата 100мм, двох-скатний дах, петлі для погрузки автокраном присутні, всередині вагонка"
+    },
+    {
+      "title": "Оздоблення підлоги:",
+      "value": "Метал, мінвата 100мм, гідробар'єр,  ОСБ-22мм, Лінолеум"
+    },
+    {
+      "title": "Двері:",
+      "value": "Металева профільна труба, зварний"
+    },
+    {
+      "title": "Вікно:",
+      "value": "1100*900мм М/П, п/у, - 2шт."
+    },
+    {
+      "title": "Електрика:",
+      "value": "Присутня, ЛЕД освітелення"
+    },{
+      "title": "Додатково:",
+      "value": "Двері МДФ, перегородка внутрішня"
+    }
+  ],
 
+  "mol-single-slides": [
+
+    {
+      "img-url": "assets/img/single-img.png"
+    },
+    {
+      "img-url": "assets/img/single-img.png"
+    },
+    {
+      "img-url": "assets/img/single-img.png"
+    },
+    {
+      "img-url": "assets/img/single-img.png"
+    },
+    {
+      "img-url": "assets/img/single-img.png"
+    },
+    {
+      "img-url": "assets/img/single-img.png"
+    },
+    {
+      "img-url": "assets/img/single-img.png"
+    }
+  ]
 }

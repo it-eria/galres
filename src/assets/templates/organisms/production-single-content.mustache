@@ -1,0 +1,33 @@
+{{#org-production-single-content}}
+    <section class="production-single-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <h2 class="mob-title-single text-center">{{{single-prod-title}}}</h2>
+                    <div class="slider h-100 main-slider-production">
+                        {{> ../molecules/single-slides}}
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <h2 class="desc-title-single">{{{single-prod-title}}}</h2>
+                    <div class="info-production ">
+                        {{> ../molecules/product-variable}}
+                        <div class="cart-container d-flex align-items-center">
+                            {{#price}}
+                                <div class="price-container d-flex align-items-center mr-30">
+                                    <strong>Ціна:</strong>
+                                    <p>{{price}}грн</p>
+                                </div>
+                            {{/price}}
+                            {{> ../molecules/blue-btn}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider nav-slider-production d-flex justify-content-start align-items-start mtop-20">
+                {{> ../molecules/single-slides}}
+
+            </div>
+        </div>
+    </section>
+{{/org-production-single-content}}
