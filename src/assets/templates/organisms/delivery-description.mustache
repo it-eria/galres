@@ -1,0 +1,40 @@
+{{#org-delivery-description}}
+    {{> ../molecules/title-h2}}
+    {{#main-image}}
+        <img class="w-100" src="{{{main-image}}}" alt="img" />
+    {{/main-image}}
+    <section class="delivery-description">
+
+        <div class="container d-lg-flex d-block align-items-start justify-content-between">
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    {{#title-description}}<h2 class="h2-default text-center text-lg-left">{{title-description}}</h2>{{/title-description}}
+                <div>
+                    {{#description}}
+                        <div class="clearfix">
+                            <div class="separator float-left mb-3 mt-3 mt-lg-3"></div>
+                            <div class="pl-lg-5  d-inline-block ">
+                                <p>{{{description}}}</p>
+                            </div>
+                            <div class="separator float-left mb-3 mt-3 mt-lg-3"></div>
+                        </div>
+
+                        <ul class="d-lg-block float-none">
+                            <span>{{list-title}}</span>
+                            {{#delivery-list-items}}
+                                <li>{{{item}}}</li>
+                            {{/delivery-list-items}}
+                        </ul>
+                    </div>
+                    {{/description}}
+                </div>
+                {{#img-description}}
+                    <div class="col-lg-6 col-12"
+                         style="background-image: url({{{img-description}}}); background-size: cover; background-repeat: no-repeat; min-height: 200px;">
+                    </div>
+                {{/img-description}}
+            </div>
+
+        </div>
+    </section>
+{{/org-delivery-description}}

@@ -103,6 +103,9 @@ $color-blue: #0a1c2e;
 }
 
 @media screen and (max-width: 1200px) {
+  .delivery-price__wrapper__item p {
+    font-size: .85rem !important;
+  }
   .category-wrapper__item {
     flex: 0 0 17% !important;
   }
@@ -147,6 +150,26 @@ $color-blue: #0a1c2e;
 }
 
 @media screen and (max-width: 992px) {
+  .accordion-body__contents {
+    font-size: .9rem;
+  }
+
+  .accordion-header {
+    font-size: 1rem !important;
+  }
+
+  .accordion-body__contents {
+    padding: 0 0 20px 0 !important;
+  }
+
+  .delivery-price__wrapper__item {
+    display: none !important;
+  }
+
+  .delivery-price__wrapper__mob-item {
+    display: block !important;
+  }
+
   .catalog-content__info-container__item {
     flex-wrap: wrap;
   }
@@ -736,6 +759,22 @@ $color-blue: #0a1c2e;
 }
 
 @media screen and (max-width: 480px) {
+  .accordion-body__contents {
+    font-size: .75rem !important
+  }
+
+  .accordion-header {
+    padding: 20px 5px !important;
+  }
+
+  .accordion-header {
+    font-size: .9rem !important;
+  }
+
+  .delivery-description {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
 
   .catalog-content__info-container__item {
     margin-bottom: 50px !important;
@@ -1006,6 +1045,10 @@ $color-blue: #0a1c2e;
 }
 
 @media screen and (max-width: 1469px) {
+
+  .delivery-price__wrapper__item span {
+    font-size: 1.2rem !important;
+  }
   .our-works__content__wrapper__item:hover .more-btn {
     width: 75%;
   }
@@ -1577,6 +1620,7 @@ $color-blue: #0a1c2e;
 .catalog-content {
   .header-main-img {
     width: 100%;
+    max-height: 590px;
   }
 
   &__wrapper {
@@ -1631,3 +1675,159 @@ $color-blue: #0a1c2e;
 .pt-80 {
   padding-top: 80px;
 }
+
+.delivery-description {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  ul {
+    padding-left: 20px;
+    span {
+      font-size: 1.25rem;
+    }
+    li {
+      list-style-image: url(../img/list-icon.png);
+    }
+  }
+}
+
+.delivery-price {
+  background-color: $color-blue;
+  padding-bottom: 65px;
+  &__wrapper {
+    &__item {
+      &:first-child{
+        border-left: 2px solid #1d6bb5;
+      }
+      &:nth-child(3){
+        border-right: 2px solid #1d6bb5;
+      }
+      &__title {
+
+      }
+      span {
+        color: #ffffff;
+        font-size: 1.25rem;
+        font-weight: 600;
+        text-align: left;
+      }
+
+      p {
+        display: table;
+        color: #ffffff;
+        font-size: .95rem;
+        font-weight: 100;
+      }
+    }
+  }
+}
+
+.delivery-price__wrapper__mob-item {
+  border-bottom: 1px solid #06121d;
+  margin-bottom: 15px;
+  padding: 15px 0 30px;
+  width: 100%;
+  &:last-child {
+    border-bottom: 0;
+  }
+  .left-blue-line {
+    border-left: 2px solid #1d6bb5;
+
+
+    padding: 0 25px;
+    span {
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 1rem;
+    }
+
+    p {
+      color: #ffffff;
+    }
+  }
+
+}
+
+
+.delivery-price__wrapper__item {
+  display: block;
+}
+
+.delivery-price__wrapper__mob-item {
+  display: none;
+}
+
+
+
+
+.accordion {
+  font-size: 1rem;
+
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.accordion-header {
+  padding: 20px;
+  color: #000;
+  cursor: pointer;
+  font-size: 1.25em;
+  font-weight: 600;
+  transition: all .3s;
+}
+
+.accordion-header:hover {
+
+  position: relative;
+  z-index: 5;
+}
+
+.accordion-body {
+
+  color: #3f3c3c;
+  display: none;
+}
+
+.accordion-body__contents {
+  padding: 0 0 20px 100px;
+  font-size: 1rem;
+}
+
+.accordion__item {
+  border-top: 1px solid #ccc;
+
+}
+
+.accordion__item.active:last-child .accordion-header {
+  border-radius: 0;
+}
+
+.accordion:first-child > .accordion__item > .accordion-header {
+  border-bottom: 1px solid transparent;
+}
+
+.accordion__item > .accordion-header:after {
+  content: "\f3d0";
+  font-family: IonIcons;
+  font-size: 1.4em;
+  float: left;
+  position: relative;
+  margin-right: 15px;
+  top: -2px;
+  font-weight: 900;
+  transition: .3s all;
+  color: #1d6bb5;
+  transform: rotate(0deg);
+}
+
+.accordion__item.active > .accordion-header:after {
+  transform: rotate(-180deg);
+}
+
+.faq {
+  padding-bottom: 65px;
+}
+
+
+
+
+
