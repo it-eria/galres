@@ -990,7 +990,8 @@
     "org-production-single-content": {
       "single-prod-title": "Вагончик дачний<br>Блок Хаус",
       "mol-blue-btn": {
-        "blue-btn-url": "http://g1.com",
+        "popup-attr": "data-toggle='modal' data-target='#exampleModalCenter2'",
+        "blue-btn-url": "javascript:void(0)",
         "name-btn": "Замовити"
       },
       "mol-product-variable": [
