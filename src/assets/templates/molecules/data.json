@@ -524,5 +524,67 @@
       "question": "Які варіанти доставки ?",
       "answer": "Зв'язуєтесь з нами за контактами або залишаєте заявку, ми узгоджуємо всі технічні питання і ціну. Після попередньої оплати виконується виготовлення або поставка вашого замовлення."
     }
+  ],
+  "mol-gallery-content-item": [
+    {
+      "image": "assets/img/gallery-item.png",
+      "zoom-icon": "assets/img/zoom-icon.png",
+      "url": "#1"
+    },
+    {
+      "image": "assets/img/gallery-item.png",
+      "zoom-icon": "assets/img/zoom-icon.png",
+      "url": "#2"
+    },
+    {
+      "image": "assets/img/gallery-item.png",
+      "zoom-icon": "assets/img/zoom-icon.png",
+      "url": "#3"
+    },
+    {
+      "image": "assets/img/gallery-item.png",
+      "zoom-icon": "assets/img/zoom-icon.png",
+      "url": "#4"
+    },
+    {
+      "image": "assets/img/gallery-item.png",
+      "zoom-icon": "assets/img/zoom-icon.png",
+      "url": "#5"
+    },
+    {
+      "image": "assets/img/gallery-item.png",
+      "zoom-icon": "assets/img/zoom-icon.png",
+      "url": "#6"
+    },
+    {
+      "image": "assets/img/gallery-item.png",
+      "zoom-icon": "assets/img/zoom-icon.png",
+      "url": "#7"
+    },
+    {
+      "image": "assets/img/gallery-item.png",
+      "zoom-icon": "assets/img/zoom-icon.png",
+      "url": "#8"
+    },
+    {
+      "image": "assets/img/gallery-item.png",
+      "zoom-icon": "assets/img/zoom-icon.png",
+      "url": "#9"
+    },
+    {
+      "image": "assets/img/gallery-item.png",
+      "zoom-icon": "assets/img/zoom-icon.png",
+      "url": "#10"
+    },
+    {
+      "image": "assets/img/gallery-item.png",
+      "zoom-icon": "assets/img/zoom-icon.png",
+      "url": "#11"
+    },
+    {
+      "image": "assets/img/gallery-item.png",
+      "zoom-icon": "assets/img/zoom-icon.png",
+      "url": "#12"
+    }
   ]
 }

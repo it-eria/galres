@@ -1664,6 +1664,278 @@
         "map": true
       }
     }
+  },
+
+  "p-gallery": {
+    "head": {
+      "title": "Gallery page"
+    },
+    "org-header": {
+      "mol-header-first-line": true,
+      "mol-header-center-line": {
+        "email": "akr.balans@gmail.com",
+        "email-icon": "assets/img/email-icon.png",
+        "location": "м. Львів, вул. Зелена, б. 149. оф.321",
+        "location-icon": "assets/img/location-icon.png",
+        "whatsapp-icon": "assets/img/whatsapp-icon.png",
+        "whatsapp-url": "#",
+        "viber-icon": "assets/img/viber-icon.png",
+        "viber-url": "#",
+        "telegram-icon": "assets/img/telegram-icon.png",
+        "telegram-url": "#",
+        "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
+        "mobile-phone-icon-url": "assets/img/phone-icon.png"
+      },
+      "mol-header-nav": true
+    },
+    "org-gallery-header": {
+      "mol-title-h2": {
+        "title": "Виробництво та продаж каркасних мобільних споруд",
+        "subtitle": "Якісно!  Недорого!  Швидко!",
+        "color-white": "color-white"
+      },
+      "mol-category-skew-item": [
+        {
+          "img": "assets/img/gal-1.jpg",
+          "title": "Пости охорони",
+          "url": "http://google.com",
+          "white-color": "white-color"
+        },
+        {
+          "img": "assets/img/gal-2.jpg",
+          "title": "Торгові будки",
+          "url": "http://google.com",
+          "white-color": "white-color"
+        },
+        {
+          "img": "assets/img/gal-3.jpg",
+          "title": "Будівельні вагони",
+          "url": "http://google.com",
+          "white-color": "white-color"
+        },
+        {
+          "img": "assets/img/gal-4.jpg",
+          "title": "Дачні будиночки",
+          "url": "http://google.com",
+          "white-color": "white-color"
+        },
+        {
+          "img": "assets/img/gal-5.jpg",
+          "title": "Вагони для бізнесу",
+          "url": "http://google.com",
+          "white-color": "white-color"
+        },
+        {
+          "img": "assets/img/gal-1.jpg",
+          "title": "Пости охорони",
+          "url": "http://google.com",
+          "white-color": "white-color"
+        },
+        {
+          "img": "assets/img/gal-2.jpg",
+          "title": "Торгові будки",
+          "url": "http://google.com",
+          "white-color": "white-color"
+        },
+        {
+          "img": "assets/img/gal-3.jpg",
+          "title": "Будівельні вагони",
+          "url": "http://google.com",
+          "white-color": "white-color"
+        },
+        {
+          "img": "assets/img/gal-4.jpg",
+          "title": "Дачні будиночки",
+          "url": "http://google.com",
+          "white-color": "white-color"
+        },
+        {
+          "img": "assets/img/gal-5.jpg",
+          "title": "Вагони для бізнесу",
+          "url": "http://google.com",
+          "white-color": "white-color"
+        }
+      ]
+    },
+    "org-gallery-content": {
+      "mol-title-h2": {
+        "title": "Галерея будиночків"
+      },
+      "mol-gallery-content-item": [
+        {
+          "image": "assets/img/gallery-item.png",
+          "zoom-icon": "assets/img/zoom-icon.png",
+          "url": "#1"
+        },
+        {
+          "image": "assets/img/gallery-item.png",
+          "zoom-icon": "assets/img/zoom-icon.png",
+          "url": "#2"
+        },
+        {
+          "image": "assets/img/gallery-item.png",
+          "zoom-icon": "assets/img/zoom-icon.png",
+          "url": "#3"
+        },
+        {
+          "image": "assets/img/gallery-item.png",
+          "zoom-icon": "assets/img/zoom-icon.png",
+          "url": "#4"
+        },
+        {
+          "image": "assets/img/gallery-item.png",
+          "zoom-icon": "assets/img/zoom-icon.png",
+          "url": "#5"
+        },
+        {
+          "image": "assets/img/gallery-item.png",
+          "zoom-icon": "assets/img/zoom-icon.png",
+          "url": "#6"
+        },
+        {
+          "image": "assets/img/gallery-item.png",
+          "zoom-icon": "assets/img/zoom-icon.png",
+          "url": "#7"
+        },
+        {
+          "image": "assets/img/gallery-item.png",
+          "zoom-icon": "assets/img/zoom-icon.png",
+          "url": "#8"
+        },
+        {
+          "image": "assets/img/gallery-item.png",
+          "zoom-icon": "assets/img/zoom-icon.png",
+          "url": "#9"
+        },
+        {
+          "image": "assets/img/gallery-item.png",
+          "zoom-icon": "assets/img/zoom-icon.png",
+          "url": "#10"
+        },
+        {
+          "image": "assets/img/gallery-item.png",
+          "zoom-icon": "assets/img/zoom-icon.png",
+          "url": "#11"
+        },
+        {
+          "image": "assets/img/gallery-item.png",
+          "zoom-icon": "assets/img/zoom-icon.png",
+          "url": "#12"
+        }
+      ]
+
+    },
+    "org-footer-container": {
+      "title-1-contacts": "Контакти",
+      "title-2-contacts": "Зворотній звязок",
+      "mol-footer-container-item": [
+        {
+          "img-icon": "assets/img/footer-location-icon.png",
+          "title-item": "Адреса:",
+          "tag": "p",
+          "info1": "м. Львів, вул. Зелена, б. 149. оф.321",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "",
+          "class-icons": ""
+        },
+
+        {
+          "img-icon": "assets/img/footer-phone-icon.png",
+          "title-item": "Телефони:",
+          "tag": "p",
+          "info1": "+38 (067) 67 24 531",
+          "info2": "+38 (067) 67 24 531",
+          "whatsapp-ico": "assets/img/whatsapp-icon.png",
+          "whatsapp-link": "http://google.com",
+          "viber-ico": "assets/img/viber-icon.png",
+          "viber-link": "http://google.com",
+          "telegram-ico": "assets/img/telegram-icon.png",
+          "telegram-link": "http://google.com",
+          "url-href": "",
+          "class-icons": ""
+        },
+        {
+          "img-icon": "assets/img/footer-icon-time.png",
+          "title-item": "Режим роботи:",
+          "tag": "p",
+          "info1": "Понеділок – П`ятниця 9:00 - 20:00 (без перерви)",
+          "info2": "Субота – по дзвінку, з 10:00 до 18:00 ",
+          "info3": "Неділя – вихідний",
+          "info4": "Дзвінки приймаються з 09:00 до 19:00",
+          "info5": "",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "",
+          "ico1": "",
+          "ico2": "",
+          "ico3": "",
+          "ico4": "",
+          "ico5": "",
+          "class-icons": ""
+        },
+
+        {
+          "img-icon": "",
+          "title-item": "Соціальні мережі:",
+          "tag": "a",
+          "info1": "Facebook",
+          "info2": "Instagram",
+          "info3": "",
+          "info4": "",
+          "info5": "",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "#",
+          "ico1": "assets/img/footer-icon-fb.png",
+          "ico2": "assets/img/footer-icon-insta.png",
+          "ico3": "",
+          "ico4": "",
+          "ico5": "",
+          "class-icons": "social-icons-footer"
+        },
+        {
+          "img-icon": "assets/img/footer-email-icon.png",
+          "title-item": "Електронна пошта:",
+          "tag": "a",
+          "info1": "akr.balans@gmail.com",
+          "whatsapp-ico": "",
+          "whatsapp-link": "",
+          "viber-ico": "",
+          "viber-link": "",
+          "telegram-ico": "",
+          "telegram-link": "",
+          "url-href": "mailto:akr.balans@gmail.com",
+          "class-icons": ""
+        }
+
+
+      ]
+    },
+    "org-gmap": true,
+    "mol-copyright": {
+      "copyright": "ГалРес 2018"
+    },
+    "foot": {
+      "vendor-scripts": {
+        "bootstrap": true,
+        "jquery": true,
+        "slick-slider": true,
+        "map": true
+      }
+    }
   }
 
 
