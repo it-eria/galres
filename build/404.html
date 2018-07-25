@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendors/aos.css">
+    <link rel="stylesheet" href="assets/css/vendors/slick.css">
+    <link rel="stylesheet" href="assets/css/vendors/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <title>404 page</title>
+</head>
+
+<body>
+    <header>
+        <div class="first-line-container-desc d-flex align-items-center blue-bg">
+            <div class="container d-flex justify-content-between">
+                <p>Ми працюємо по всій західній Україні</p>
+                <p>Пн-Сб: з 9:00 до 18:00</p>
+            </div>
+        </div>
+        <div class="center-line-container-desc">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="center-line-container-desc__left-side-info d-flex align-items-center">
+                    <a href="mailto:akr.balans@gmail.com" class="mr-60"><img src="assets/img/email-icon.png" alt="img"/>akr.balans@gmail.com</a>
+                    <p><img src="assets/img/location-icon.png" alt="img" />м. Львів, вул. Зелена, б. 149. оф.321</p>
+                </div>
+                <div class="center-line-container-desc__right-side-info d-flex align-items-center">
+                    <div class="socials mr-15">
+                        <a href="#"><img src="assets/img/whatsapp-icon.png"/></a>
+                        <a href="#"><img src="assets/img/viber-icon.png"/></a>
+                        <a href="#"><img src="assets/img/telegram-icon.png"/></a>
+                    </div>
+                    <div class="phone-info">
+                        <p><img src="assets/img/phone-icon.png" alt="img" />+38(067) 67-24-531 +38(067) 67-24-531</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-menu-container pb-30">
+            <div class="full-w-bborder">
+                <div class="container">
+                    <nav class="nav-second navbar navbar-expand-md">
+                        <div class="navbar-header">
+                            <a class="d-sm-block d-md-none d-lg-none" data-toggle="collapse" data-target="#first" href="#" id="menu-burger"><span></span></a>
+                            <a class="navbar-brand d-sm-block d-md-none d-lg-none" href="#"><img class="logotype-img"
+                                                                                             src="assets/img/logotype.png"
+                                                                                             alt="Brand"/></a>
+                            <a class="header-btn-products d-sm-block d-md-none d-lg-none" href="#">Продукція</a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="first">
+                            <ul class="navbar-nav">
+                                <li class="nav-item current-menu-item">
+                                    <a class="nav-link " href="#">Головна</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Про компанію</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Продукція</a>
+                                </li>
+                                <li class=" navbar-brand">
+                                    <a class="nav-link d-none d-sm-none d-md-block d-lg-block" href="#"><img
+                                        class="logotype-img" src="assets/img/logotype.png" alt="Brand"/></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Галерея</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Доставка</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Контакти</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <section class="style-404" style="background-image: url(assets/img/about.png);">
+        <div class="style-404__container">
+            <div class="title-h2  pb-40 pt-40">
+                <div class="container d-flex justify-content-center align-items-center flex-column ">
+                    <h2 class="text-center">Сторінку не знайдено</h2>
+
+                </div>
+            </div>
+            <img src="assets/img/404.png" alt="img" />
+            <div class="mt-4 w-100 d-flex justify-content-center">
+                <a href="http://g111.com" class="blue-btn">Головна</a>
+            </div>
+        </div>
+    </section>
+    <!-- Jquery -->
+    <script src="assets/js/vendors/jquery-3.3.1.js"></script>
+    <!-- Slick slider -->
+    <script src="assets/js/vendors/slick.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="assets/js/vendors/bootstrap.js"></script>
+
+    <!-- Map -->
+    <script>
+        function initMap() {
+            var coords = {
+                lat: 49.812813,
+                lng: 24.000806
+            };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 17,
+                center: coords
+            });
+            var marker = new google.maps.Marker({
+                position: coords,
+                map: map,
+                icon: "assets/img/gmap-marker.png"
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoLs4jh4_7ZW16LDVDAXDPGISWv9RN-x8&callback=initMap" async defer></script>
+
+
+
+    <!-- Custom script -->
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>

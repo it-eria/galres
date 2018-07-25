@@ -932,6 +932,15 @@
       }
     ]
 
+  },
+  "org-404": {
+    "mol-title-h2": {
+      "title": "Сторінку не знайдено"
+    },
+    "mol-blue-btn": {
+      "blue-btn-url": "http://g111.com",
+      "name-btn": "Головна"
+    }
   }
 
 
