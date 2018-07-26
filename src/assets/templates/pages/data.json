@@ -19,29 +19,80 @@
         "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
         "mobile-phone-icon-url": "assets/img/phone-icon.png"
       },
-      "mol-header-nav": true
+      "mol-header-nav": {
+        "logo": "assets/img/logotype.png",
+        "production-url": "#",
+        "navbar": {
+          "navbar-item": [
+            {
+              "non-logotype": "Головна",
+              "menu-url": "/"
+            },
+            {
+              "non-logotype": "Про компанію",
+              "menu-url": "/about"
+            },
+            {
+              "non-logotype": "Продукція",
+              "menu-url": "/production"
+            },
+
+            {
+              "logotype": "assets/img/logotype.png"
+            },
+            {
+              "non-logotype": "Галерея",
+              "menu-url": "/gallery"
+            },
+            {
+              "non-logotype": "Доставка",
+              "menu-url": "/delivery"
+            },
+            {
+              "non-logotype": "Контакти",
+              "menu-url": "/contact"
+            }
+          ]
+        }
+      }
     },
     "org-header-home-category": {
       "mol-header-home-category-item": [
         {
           "title": "Дачні будиночки",
-          "image-url": "assets/img/header-slide-1.jpg"
+          "image-url": "assets/img/header-slide-1.jpg",
+          "content": "<p>Curabitur sed ex sapien. Duis dapibus eu sem sed ornare. Maecenas placerat, massa quis aliquam vestibulum, mi ligula placerat ante, at tempor eros quam quis lacus. Aenean tempor blandit arcu sit amet sagittis. In non nulla varius, gravida odio id, tristique turpis. Suspendisse potenti. In aliquet sodales facilisis. </p>",
+          "price": "1500",
+          "more-url": "/catalog-page"
         },
         {
           "title": "Будівельні вагони",
-          "image-url": "assets/img/header-slide-2.jpg"
+          "image-url": "assets/img/header-slide-2.jpg",
+          "content": "<p>Curabitur sed ex sapien. Duis dapibus eu sem sed ornare. Maecenas placerat, massa quis aliquam vestibulum, mi ligula placerat ante, at tempor eros quam quis lacus. Aenean tempor blandit arcu sit amet sagittis. In non nulla varius, gravida odio id, tristique turpis. Suspendisse potenti. In aliquet sodales facilisis. </p>",
+          "price": "1500",
+          "more-url": "/catalog-page"
+
         },
         {
           "title": "Вагони для бізнесу",
-          "image-url": "assets/img/header-slide-3.jpg"
+          "image-url": "assets/img/header-slide-3.jpg",
+          "content": "<p>Curabitur sed ex sapien. Duis dapibus eu sem sed ornare. Maecenas placerat, massa quis aliquam vestibulum, mi ligula placerat ante, at tempor eros quam quis lacus. Aenean tempor blandit arcu sit amet sagittis. In non nulla varius, gravida odio id, tristique turpis. Suspendisse potenti. In aliquet sodales facilisis. </p>",
+          "price": "1500",
+          "more-url": "/catalog-page"
         },
         {
           "title": "Пости охорони",
-          "image-url": "assets/img/header-slide-4.jpg"
+          "image-url": "assets/img/header-slide-4.jpg",
+          "content": "<p>Curabitur sed ex sapien. Duis dapibus eu sem sed ornare. Maecenas placerat, massa quis aliquam vestibulum, mi ligula placerat ante, at tempor eros quam quis lacus. Aenean tempor blandit arcu sit amet sagittis. In non nulla varius, gravida odio id, tristique turpis. Suspendisse potenti. In aliquet sodales facilisis. </p>",
+          "price": "1500",
+          "more-url": "/catalog-page"
         },
         {
           "title": "Торгові будки",
-          "image-url": "assets/img/header-slide-5.jpg"
+          "image-url": "assets/img/header-slide-5.jpg",
+          "content": "<p>Curabitur sed ex sapien. Duis dapibus eu sem sed ornare. Maecenas placerat, massa quis aliquam vestibulum, mi ligula placerat ante, at tempor eros quam quis lacus. Aenean tempor blandit arcu sit amet sagittis. In non nulla varius, gravida odio id, tristique turpis. Suspendisse potenti. In aliquet sodales facilisis. </p>",
+          "price": "1500",
+          "more-url": "/catalog-page"
         }
       ],
       "mol-mob-contacts-info-main": {
@@ -434,11 +485,11 @@
         "bootstrap": true,
         "jquery": true,
         "slick-slider": true,
-        "map": true
+        "map": true,
+        "aos": true
       }
     }
   },
-
   "p-about": {
     "head": {
       "title": "About page"
@@ -459,7 +510,42 @@
         "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
         "mobile-phone-icon-url": "assets/img/phone-icon.png"
       },
-      "mol-header-nav": true
+      "mol-header-nav": {
+        "logo": "assets/img/logotype.png",
+        "production-url": "#",
+        "navbar": {
+          "navbar-item": [
+            {
+              "non-logotype": "Головна",
+              "menu-url": "/"
+            },
+            {
+              "non-logotype": "Про компанію",
+              "menu-url": "/about"
+            },
+            {
+              "non-logotype": "Продукція",
+              "menu-url": "/production"
+            },
+
+            {
+              "logotype": "assets/img/logotype.png"
+            },
+            {
+              "non-logotype": "Галерея",
+              "menu-url": "/gallery"
+            },
+            {
+              "non-logotype": "Доставка",
+              "menu-url": "/delivery"
+            },
+            {
+              "non-logotype": "Контакти",
+              "menu-url": "/contact"
+            }
+          ]
+        }
+      }
     },
     "org-footer-container": {
       "title-1-contacts": "Контакти",
@@ -556,8 +642,6 @@
           "url-href": "mailto:akr.balans@gmail.com",
           "class-icons": ""
         }
-
-
       ]
     },
     "org-gmap": true,
@@ -569,7 +653,8 @@
         "bootstrap": true,
         "jquery": true,
         "slick-slider": true,
-        "map": true
+        "map": true,
+        "aos": true
       }
     },
     "org-about-header-image": {
@@ -726,7 +811,42 @@
         "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
         "mobile-phone-icon-url": "assets/img/phone-icon.png"
       },
-      "mol-header-nav": true
+      "mol-header-nav": {
+        "logo": "assets/img/logotype.png",
+        "production-url": "#",
+        "navbar": {
+          "navbar-item": [
+            {
+              "non-logotype": "Головна",
+              "menu-url": "/"
+            },
+            {
+              "non-logotype": "Про компанію",
+              "menu-url": "/about"
+            },
+            {
+              "non-logotype": "Продукція",
+              "menu-url": "/production"
+            },
+
+            {
+              "logotype": "assets/img/logotype.png"
+            },
+            {
+              "non-logotype": "Галерея",
+              "menu-url": "/gallery"
+            },
+            {
+              "non-logotype": "Доставка",
+              "menu-url": "/delivery"
+            },
+            {
+              "non-logotype": "Контакти",
+              "menu-url": "/contact"
+            }
+          ]
+        }
+      }
     },
     "org-category-skew": {
       "mol-title-h2": {
@@ -738,27 +858,27 @@
         {
           "img": "assets/img/gal-1.jpg",
           "title": "Пости охорони",
-          "url": "http://google.com"
+          "url": "/catalog-page"
         },
         {
           "img": "assets/img/gal-2.jpg",
           "title": "Торгові будки",
-          "url": "http://google.com"
+          "url": "/catalog-page"
         },
         {
           "img": "assets/img/gal-3.jpg",
           "title": "Будівельні вагони",
-          "url": "http://google.com"
+          "url": "/catalog-page"
         },
         {
           "img": "assets/img/gal-4.jpg",
           "title": "Дачні будиночки",
-          "url": "http://google.com"
+          "url": "/catalog-page"
         },
         {
           "img": "assets/img/gal-5.jpg",
           "title": "Вагони для бізнесу",
-          "url": "http://google.com"
+          "url": "/catalog-page"
         }
       ]
     },
@@ -769,42 +889,42 @@
       },
       "mol-our-work-item": [
         {
-          "url": "#1",
+          "url": "/production-single",
           "img": "assets/img/our-works-1.png",
           "title": "Вагончик Будівельний",
           "size": "(6.0х2.5х2.5м)",
           "price": "1500"
         },
         {
-          "url": "#2",
+          "url": "/production-single",
           "img": "assets/img/our-works-2.png",
           "title": "Вагончик Будівельний",
           "size": "(6.0х2.5х2.5м)",
           "price": "1500"
         },
         {
-          "url": "#3",
+          "url": "/production-single",
           "img": "assets/img/our-works-3.png",
           "title": "Вагончик Будівельний",
           "size": "(6.0х2.5х2.5м)",
           "price": "1500"
         },
         {
-          "url": "#4",
+          "url": "/production-single",
           "img": "assets/img/our-works-4.png",
           "title": "Вагончик Будівельний",
           "size": "(6.0х2.5х2.5м)",
           "price": "1500"
         },
         {
-          "url": "#5",
+          "url": "/production-single",
           "img": "assets/img/our-works-5.png",
           "title": "Вагончик Будівельний",
           "size": "(6.0х2.5х2.5м)",
           "price": "1500"
         },
         {
-          "url": "#6",
+          "url": "/production-single",
           "img": "assets/img/our-works-6.png",
           "title": "Вагончик Будівельний",
           "size": "(6.0х2.5х2.5м)",
@@ -960,7 +1080,8 @@
         "bootstrap": true,
         "jquery": true,
         "slick-slider": true,
-        "map": true
+        "map": true,
+        "aos": true
       }
     }
 
@@ -985,12 +1106,47 @@
         "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
         "mobile-phone-icon-url": "assets/img/phone-icon.png"
       },
-      "mol-header-nav": true
+      "mol-header-nav": {
+        "logo": "assets/img/logotype.png",
+        "production-url": "#",
+        "navbar": {
+          "navbar-item": [
+            {
+              "non-logotype": "Головна",
+              "menu-url": "/"
+            },
+            {
+              "non-logotype": "Про компанію",
+              "menu-url": "/about"
+            },
+            {
+              "non-logotype": "Продукція",
+              "menu-url": "/production"
+            },
+
+            {
+              "logotype": "assets/img/logotype.png"
+            },
+            {
+              "non-logotype": "Галерея",
+              "menu-url": "/gallery"
+            },
+            {
+              "non-logotype": "Доставка",
+              "menu-url": "/delivery"
+            },
+            {
+              "non-logotype": "Контакти",
+              "menu-url": "/contact"
+            }
+          ]
+        }
+      }
     },
     "org-production-single-content": {
       "single-prod-title": "Вагончик дачний<br>Блок Хаус",
       "mol-blue-btn": {
-        "popup-attr": "data-toggle='modal' data-target='#exampleModalCenter2'",
+        "popup-attr": "data-toggle='modal' data-target='#exampleModalCenter'",
         "blue-btn-url": "javascript:void(0)",
         "name-btn": "Замовити"
       },
@@ -1064,56 +1220,42 @@
       "title-related": "Схожі товари",
       "mol-our-work-item": [
         {
-          "url": "#1",
+          "url": "/production-single",
           "img": "assets/img/our-works-1.png",
           "title": "Вагончик Будівельний",
           "size": "(6.0х2.5х2.5м)",
           "price": "1500"
         },
         {
-          "url": "#2",
+          "url": "/production-single",
           "img": "assets/img/our-works-2.png",
           "title": "Вагончик Будівельний",
           "size": "(6.0х2.5х2.5м)",
           "price": "1500"
         },
         {
-          "url": "#3",
+          "url": "/production-single",
           "img": "assets/img/our-works-3.png",
           "title": "Вагончик Будівельний",
           "size": "(6.0х2.5х2.5м)",
           "price": "1500"
         },
         {
-          "url": "#4",
+          "url": "/production-single",
           "img": "assets/img/our-works-4.png",
           "title": "Вагончик Будівельний",
           "size": "(6.0х2.5х2.5м)",
           "price": "1500"
         },
         {
-          "url": "#5",
+          "url": "/production-single",
           "img": "assets/img/our-works-5.png",
           "title": "Вагончик Будівельний",
           "size": "(6.0х2.5х2.5м)",
           "price": "1500"
         },
         {
-          "url": "#6",
-          "img": "assets/img/our-works-6.png",
-          "title": "Вагончик Будівельний",
-          "size": "(6.0х2.5х2.5м)",
-          "price": "1500"
-        },
-        {
-          "url": "#6",
-          "img": "assets/img/our-works-6.png",
-          "title": "Вагончик Будівельний",
-          "size": "(6.0х2.5х2.5м)",
-          "price": "1500"
-        },
-        {
-          "url": "#6",
+          "url": "/production-single",
           "img": "assets/img/our-works-6.png",
           "title": "Вагончик Будівельний",
           "size": "(6.0х2.5х2.5м)",
@@ -1229,7 +1371,8 @@
         "bootstrap": true,
         "jquery": true,
         "slick-slider": true,
-        "map": true
+        "map": true,
+        "aos": true
       }
     }
   },
@@ -1253,7 +1396,42 @@
         "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
         "mobile-phone-icon-url": "assets/img/phone-icon.png"
       },
-      "mol-header-nav": true
+      "mol-header-nav": {
+        "logo": "assets/img/logotype.png",
+        "production-url": "#",
+        "navbar": {
+          "navbar-item": [
+            {
+              "non-logotype": "Головна",
+              "menu-url": "/"
+            },
+            {
+              "non-logotype": "Про компанію",
+              "menu-url": "/about"
+            },
+            {
+              "non-logotype": "Продукція",
+              "menu-url": "/production"
+            },
+
+            {
+              "logotype": "assets/img/logotype.png"
+            },
+            {
+              "non-logotype": "Галерея",
+              "menu-url": "/gallery"
+            },
+            {
+              "non-logotype": "Доставка",
+              "menu-url": "/delivery"
+            },
+            {
+              "non-logotype": "Контакти",
+              "menu-url": "/contact"
+            }
+          ]
+        }
+      }
     },
     "org-catalog-content": {
       "mol-title-h2": {
@@ -1442,7 +1620,8 @@
         "bootstrap": true,
         "jquery": true,
         "slick-slider": true,
-        "map": true
+        "map": true,
+        "aos": true
       }
     }
   },
@@ -1466,7 +1645,42 @@
         "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
         "mobile-phone-icon-url": "assets/img/phone-icon.png"
       },
-      "mol-header-nav": true
+      "mol-header-nav": {
+        "logo": "assets/img/logotype.png",
+        "production-url": "#",
+        "navbar": {
+          "navbar-item": [
+            {
+              "non-logotype": "Головна",
+              "menu-url": "/"
+            },
+            {
+              "non-logotype": "Про компанію",
+              "menu-url": "/about"
+            },
+            {
+              "non-logotype": "Продукція",
+              "menu-url": "/production"
+            },
+
+            {
+              "logotype": "assets/img/logotype.png"
+            },
+            {
+              "non-logotype": "Галерея",
+              "menu-url": "/gallery"
+            },
+            {
+              "non-logotype": "Доставка",
+              "menu-url": "/delivery"
+            },
+            {
+              "non-logotype": "Контакти",
+              "menu-url": "/contact"
+            }
+          ]
+        }
+      }
     },
     "org-delivery-description": {
       "mol-title-h2": {
@@ -1663,7 +1877,8 @@
         "bootstrap": true,
         "jquery": true,
         "slick-slider": true,
-        "map": true
+        "map": true,
+        "aos": true
       }
     }
   },
@@ -1687,7 +1902,42 @@
         "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
         "mobile-phone-icon-url": "assets/img/phone-icon.png"
       },
-      "mol-header-nav": true
+      "mol-header-nav": {
+        "logo": "assets/img/logotype.png",
+        "production-url": "#",
+        "navbar": {
+          "navbar-item": [
+            {
+              "non-logotype": "Головна",
+              "menu-url": "/"
+            },
+            {
+              "non-logotype": "Про компанію",
+              "menu-url": "/about"
+            },
+            {
+              "non-logotype": "Продукція",
+              "menu-url": "/production"
+            },
+
+            {
+              "logotype": "assets/img/logotype.png"
+            },
+            {
+              "non-logotype": "Галерея",
+              "menu-url": "/gallery"
+            },
+            {
+              "non-logotype": "Доставка",
+              "menu-url": "/delivery"
+            },
+            {
+              "non-logotype": "Контакти",
+              "menu-url": "/contact"
+            }
+          ]
+        }
+      }
     },
     "org-gallery-header": {
       "mol-title-h2": {
@@ -1934,7 +2184,8 @@
         "bootstrap": true,
         "jquery": true,
         "slick-slider": true,
-        "map": true
+        "map": true,
+        "aos": true
       }
     }
   },
@@ -1958,7 +2209,42 @@
         "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
         "mobile-phone-icon-url": "assets/img/phone-icon.png"
       },
-      "mol-header-nav": true
+      "mol-header-nav": {
+        "logo": "assets/img/logotype.png",
+        "production-url": "#",
+        "navbar": {
+          "navbar-item": [
+            {
+              "non-logotype": "Головна",
+              "menu-url": "/"
+            },
+            {
+              "non-logotype": "Про компанію",
+              "menu-url": "/about"
+            },
+            {
+              "non-logotype": "Продукція",
+              "menu-url": "/production"
+            },
+
+            {
+              "logotype": "assets/img/logotype.png"
+            },
+            {
+              "non-logotype": "Галерея",
+              "menu-url": "/gallery"
+            },
+            {
+              "non-logotype": "Доставка",
+              "menu-url": "/delivery"
+            },
+            {
+              "non-logotype": "Контакти",
+              "menu-url": "/contact"
+            }
+          ]
+        }
+      }
     },
     "org-about-company": {
       "mol-title-h2": {
@@ -2079,7 +2365,8 @@
         "bootstrap": true,
         "jquery": true,
         "slick-slider": true,
-        "map": true
+        "map": true,
+        "aos": true
       }
     }
   },
@@ -2103,7 +2390,42 @@
         "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
         "mobile-phone-icon-url": "assets/img/phone-icon.png"
       },
-      "mol-header-nav": true
+      "mol-header-nav": {
+        "logo": "assets/img/logotype.png",
+        "production-url": "#",
+        "navbar": {
+          "navbar-item": [
+            {
+              "non-logotype": "Головна",
+              "menu-url": "/"
+            },
+            {
+              "non-logotype": "Про компанію",
+              "menu-url": "/about"
+            },
+            {
+              "non-logotype": "Продукція",
+              "menu-url": "/production"
+            },
+
+            {
+              "logotype": "assets/img/logotype.png"
+            },
+            {
+              "non-logotype": "Галерея",
+              "menu-url": "/gallery"
+            },
+            {
+              "non-logotype": "Доставка",
+              "menu-url": "/delivery"
+            },
+            {
+              "non-logotype": "Контакти",
+              "menu-url": "/contact"
+            }
+          ]
+        }
+      }
     },
     "org-404": {
       "mol-title-h2": {
@@ -2124,7 +2446,4 @@
     }
 
   }
-
-
-
 }

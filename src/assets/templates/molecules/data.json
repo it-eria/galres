@@ -14,27 +14,78 @@
     "mobile-phone": "+38(067) 67-24-531 +38(067) 67-24-531",
     "mobile-phone-icon-url": "assets/img/phone-icon.png"
   },
-  "mol-header-nav": true,
+  "mol-header-nav": {
+    "logo": "assets/img/logotype.png",
+    "production-url": "#",
+    "navbar": {
+      "navbar-item": [
+        {
+          "non-logotype": "Головна",
+          "menu-url": "/"
+        },
+        {
+          "non-logotype": "Про компанію",
+          "menu-url": "/about"
+        },
+        {
+          "non-logotype": "Продукція",
+          "menu-url": "/production"
+        },
+
+        {
+          "logotype": "assets/img/logotype.png"
+        },
+        {
+          "non-logotype": "Галерея",
+          "menu-url": "/gallery"
+        },
+        {
+          "non-logotype": "Доставка",
+          "menu-url": "/delivery"
+        },
+        {
+          "non-logotype": "Контакти",
+          "menu-url": "/contact"
+        }
+      ]
+    }
+  },
   "mol-header-home-category-item": [
     {
       "title": "Дачні будиночки",
-      "image-url": "assets/img/header-slide-1.jpg"
+      "image-url": "assets/img/header-slide-1.jpg",
+      "content": "<p>Curabitur sed ex sapien. Duis dapibus eu sem sed ornare. Maecenas placerat, massa quis aliquam vestibulum, mi ligula placerat ante, at tempor eros quam quis lacus. Aenean tempor blandit arcu sit amet sagittis. In non nulla varius, gravida odio id, tristique turpis. Suspendisse potenti. In aliquet sodales facilisis. </p>",
+      "price": "1500",
+      "more-url": "/catalog-page"
     },
     {
       "title": "Будівельні вагони",
-      "image-url": "assets/img/header-slide-2.jpg"
+      "image-url": "assets/img/header-slide-2.jpg",
+      "content": "<p>Curabitur sed ex sapien. Duis dapibus eu sem sed ornare. Maecenas placerat, massa quis aliquam vestibulum, mi ligula placerat ante, at tempor eros quam quis lacus. Aenean tempor blandit arcu sit amet sagittis. In non nulla varius, gravida odio id, tristique turpis. Suspendisse potenti. In aliquet sodales facilisis. </p>",
+      "price": "1500",
+      "more-url": "/catalog-page"
+
     },
     {
       "title": "Вагони для бізнесу",
-      "image-url": "assets/img/header-slide-3.jpg"
+      "image-url": "assets/img/header-slide-3.jpg",
+      "content": "<p>Curabitur sed ex sapien. Duis dapibus eu sem sed ornare. Maecenas placerat, massa quis aliquam vestibulum, mi ligula placerat ante, at tempor eros quam quis lacus. Aenean tempor blandit arcu sit amet sagittis. In non nulla varius, gravida odio id, tristique turpis. Suspendisse potenti. In aliquet sodales facilisis. </p>",
+      "price": "1500",
+      "more-url": "/catalog-page"
     },
     {
       "title": "Пости охорони",
-      "image-url": "assets/img/header-slide-4.jpg"
+      "image-url": "assets/img/header-slide-4.jpg",
+      "content": "<p>Curabitur sed ex sapien. Duis dapibus eu sem sed ornare. Maecenas placerat, massa quis aliquam vestibulum, mi ligula placerat ante, at tempor eros quam quis lacus. Aenean tempor blandit arcu sit amet sagittis. In non nulla varius, gravida odio id, tristique turpis. Suspendisse potenti. In aliquet sodales facilisis. </p>",
+      "price": "1500",
+      "more-url": "/catalog-page"
     },
     {
       "title": "Торгові будки",
-      "image-url": "assets/img/header-slide-5.jpg"
+      "image-url": "assets/img/header-slide-5.jpg",
+      "content": "<p>Curabitur sed ex sapien. Duis dapibus eu sem sed ornare. Maecenas placerat, massa quis aliquam vestibulum, mi ligula placerat ante, at tempor eros quam quis lacus. Aenean tempor blandit arcu sit amet sagittis. In non nulla varius, gravida odio id, tristique turpis. Suspendisse potenti. In aliquet sodales facilisis. </p>",
+      "price": "1500",
+      "more-url": "/catalog-page"
     }
   ],
   "mol-mob-contacts-info-main": {
@@ -122,7 +173,7 @@
   },
   "mol-work-sidebar": {
     "cat-title": "Каталог",
-    "mol-work-sidebar-item" : [
+    "mol-work-sidebar-item": [
       {
         "cat-item": "Будівельні вагончики"
       },
@@ -157,42 +208,42 @@
   },
   "mol-our-work-item": [
     {
-      "url": "#1",
+      "url": "/production-single",
       "img": "assets/img/our-works-1.png",
       "title": "Вагончик Будівельний",
       "size": "(6.0х2.5х2.5м)",
       "price": "1500"
     },
     {
-      "url": "#2",
+      "url": "/production-single",
       "img": "assets/img/our-works-2.png",
       "title": "Вагончик Будівельний",
       "size": "(6.0х2.5х2.5м)",
       "price": "1500"
     },
     {
-      "url": "#3",
+      "url": "/production-single",
       "img": "assets/img/our-works-3.png",
       "title": "Вагончик Будівельний",
       "size": "(6.0х2.5х2.5м)",
       "price": "1500"
     },
     {
-      "url": "#4",
+      "url": "/production-single",
       "img": "assets/img/our-works-4.png",
       "title": "Вагончик Будівельний",
       "size": "(6.0х2.5х2.5м)",
       "price": "1500"
     },
     {
-      "url": "#5",
+      "url": "/production-single",
       "img": "assets/img/our-works-5.png",
       "title": "Вагончик Будівельний",
       "size": "(6.0х2.5х2.5м)",
       "price": "1500"
     },
     {
-      "url": "#6",
+      "url": "/production-single",
       "img": "assets/img/our-works-6.png",
       "title": "Вагончик Будівельний",
       "size": "(6.0х2.5х2.5м)",
@@ -221,7 +272,6 @@
       ],
       "img-slide": "assets/img/home-slider-img.png"
     },
-
     {
       "list-title": "Переваги профнастилу:",
       "mol-advantages-slider-info-list": [
@@ -243,7 +293,6 @@
       ],
       "img-slide": "assets/img/home-slider-img.png"
     },
-
     {
       "list-title": "Переваги профнастилу:",
       "mol-advantages-slider-info-list": [
@@ -265,7 +314,6 @@
       ],
       "img-slide": "assets/img/home-slider-img.png"
     }
-
   ],
   "mol-about-content": {
     "mol-title-h2": {
@@ -418,27 +466,27 @@
     {
       "img": "assets/img/gal-1.jpg",
       "title": "Пости охорони",
-      "url": "http://google.com"
+      "url": "/catalog-page"
     },
     {
       "img": "assets/img/gal-2.jpg",
       "title": "Торгові будки",
-      "url": "http://google.com"
+      "url": "/catalog-page"
     },
     {
       "img": "assets/img/gal-3.jpg",
       "title": "Будівельні вагони",
-      "url": "http://google.com"
+      "url": "/catalog-page"
     },
     {
       "img": "assets/img/gal-4.jpg",
       "title": "Дачні будиночки",
-      "url": "http://google.com"
+      "url": "/catalog-page"
     },
     {
       "img": "assets/img/gal-5.jpg",
       "title": "Вагони для бізнесу",
-      "url": "http://google.com"
+      "url": "/catalog-page"
     }
   ],
   "mol-product-variable": [
@@ -473,13 +521,13 @@
     {
       "title": "Електрика:",
       "value": "Присутня, ЛЕД освітелення"
-    },{
+    },
+    {
       "title": "Додатково:",
       "value": "Двері МДФ, перегородка внутрішня"
     }
   ],
   "mol-single-slides": [
-
     {
       "img-url": "assets/img/single-img.png"
     },

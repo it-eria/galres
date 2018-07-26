@@ -26,7 +26,8 @@
         <div class="center-line-container-desc">
             <div class="container d-flex justify-content-between align-items-center">
                 <div class="center-line-container-desc__left-side-info d-flex align-items-center">
-                    <a href="mailto:akr.balans@gmail.com" class="mr-60"><img src="assets/img/email-icon.png" alt="img"/>akr.balans@gmail.com</a>
+                    <a href="mailto:akr.balans@gmail.com" class="mr-60"><img src="assets/img/email-icon.png" alt="img"/>akr.balans@gmail.com
+                    </a>
                     <p><img src="assets/img/location-icon.png" alt="img" />м. Львів, вул. Зелена, б. 149. оф.321</p>
                 </div>
                 <div class="center-line-container-desc__right-side-info d-flex align-items-center">
@@ -54,28 +55,30 @@
                         </div>
                         <div class="collapse navbar-collapse" id="first">
                             <ul class="navbar-nav">
-                                <li class="nav-item current-menu-item">
-                                    <a class="nav-link " href="#">Головна</a>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="/">Головна</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Про компанію</a>
+                                    <a class="nav-link " href="/about">Про компанію</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Продукція</a>
+                                    <a class="nav-link " href="/production">Продукція</a>
                                 </li>
                                 <li class=" navbar-brand">
-                                    <a class="nav-link d-none d-sm-none d-md-block d-lg-block" href="#"><img
-                                        class="logotype-img" src="assets/img/logotype.png" alt="Brand"/></a>
+                                    <a class="nav-link d-none d-sm-none d-md-block d-lg-block" href="#">
+                                        <img class="logotype-img" src="assets/img/logotype.png" alt="Brand"/>
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Галерея</a>
+                                    <a class="nav-link " href="/gallery">Галерея</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Доставка</a>
+                                    <a class="nav-link " href="/delivery">Доставка</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Контакти</a>
+                                    <a class="nav-link " href="/contact">Контакти</a>
                                 </li>
+
                             </ul>
                         </div>
                     </nav>
@@ -84,16 +87,17 @@
 
         </div>
     </header>
+    <div id="map"></div>
     <section class="about-company">
         <div class="container">
-            <div class="title-h2  pb-40 pt-40">
+            <div class="title-h2  pb-40 pt-40" data-aos="zoom-out-up" data-aos-offset="200">
                 <div class="container d-flex justify-content-center align-items-center flex-column ">
                     <h2 class="text-center">Як до нас добратись?</h2>
                     <span>Бажанно попередньо дзвонити</span>
                 </div>
             </div>
             <div class=" justify-content-between d-block align-items-start d-lg-flex pb-5">
-                <div class="col-lg-6 col-sm-12 col-md-12 clearfix mt-4">
+                <div class="col-lg-6 col-sm-12 col-md-12 clearfix mt-4 " data-aos="fade-right" data-aos-duration="400" data-aos-offset="200">
                     <div class="separator mb-3 mt-3 mt-lg-3"></div>
                     <div class="description-about">
                         <strong>Рухаєтесь по вул. Зеленій </strong><br><br>Зі сторони Сихова до Центру: проїжджаєте кільце біля ДБК, з правої сторони проїжджаєте вул.Пимоненка і салон ФІАТ, за салоном ФІАТ перший поворот направо (біля зупинки і білого
@@ -102,7 +106,7 @@
                     </div>
                     <div class="separator float-left mt-3"></div>
                 </div>
-                <div class="col-lg-6 col-sm-12 col-md-12 mt-5 clearfix">
+                <div class="col-lg-6 col-sm-12 col-md-12 mt-5 clearfix " data-aos="fade-left" data-aos-duration="400" data-aos-offset="200">
 
                     <div class="separator mb-3 mt-3 mt-lg-3 float-right d-none d-lg-block"></div>
                     <div class="description-about d-inline-block ">
@@ -203,7 +207,6 @@
             </div>
         </div>
     </section>
-    <div id="map"></div>
     <div class="copyright bg-blue justify-content-center align-items-center d-flex w-100 text-white pt-2 pb-2">
         ГалРес 2018
     </div>
@@ -211,6 +214,8 @@
     <script src="assets/js/vendors/jquery-3.3.1.js"></script>
     <!-- Slick slider -->
     <script src="assets/js/vendors/slick.min.js"></script>
+    <!-- Animate on scroll -->
+    <script src="assets/js/vendors/aos.js"></script>
     <!-- Bootstrap -->
     <script src="assets/js/vendors/bootstrap.js"></script>
 
@@ -248,8 +253,8 @@
                         <h4>Заповніть особисті дані для успішного замовлення</h4>
                     </div>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
                 <form class="contact-form-container">
                     <input type="text" placeholder="Ім'я: ">
@@ -273,15 +278,12 @@
                 <div class="modal-header">
                     <div>
                         <h2 class="text-center">Ваше замовлення було успішно відправлено</h2>
-
                     </div>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                  </button>
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-
                 <a href="javascript:void(0)" class="blue-btn m-auto">Замовити</a>
-
             </div>
         </div>
     </div>

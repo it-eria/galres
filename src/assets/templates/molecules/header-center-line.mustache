@@ -2,18 +2,25 @@
     <div class="center-line-container-desc">
         <div class="container d-flex justify-content-between align-items-center">
             <div class="center-line-container-desc__left-side-info d-flex align-items-center">
-                <a href="mailto:akr.balans@gmail.com" class="mr-60"><img src="{{{email-icon}}}" alt="img"/>{{email}}</a>
-                <p><img src="{{{location-icon}}}" alt="img" />{{location}}</p>
+                {{#email}}
+                    <a href="mailto:akr.balans@gmail.com" class="mr-60"><img src="{{{email-icon}}}" alt="img"/>{{email}}
+                    </a>
+                {{/email}}
+                {{#location}}<p><img src="{{{location-icon}}}" alt="img"/>{{location}}</p>{{/location}}
             </div>
             <div class="center-line-container-desc__right-side-info d-flex align-items-center">
                 <div class="socials mr-15">
-                    <a href="{{{whatsapp-url}}}"><img src="{{{whatsapp-icon}}}"/></a>
-                    <a href="{{{viber-url}}}"><img src="{{{viber-icon}}}"/></a>
-                    <a href="{{{telegram-url}}}"><img src="{{{telegram-icon}}}"/></a>
+                    {{#whatsapp-icon}}
+                        <a href="{{{whatsapp-url}}}"><img src="{{{whatsapp-icon}}}"/></a>{{/whatsapp-icon}}
+                    {{#viber-icon}}<a href="{{{viber-url}}}"><img src="{{{viber-icon}}}"/></a>{{/viber-icon}}
+                    {{#telegram-icon}}
+                        <a href="{{{telegram-url}}}"><img src="{{{telegram-icon}}}"/></a>{{/telegram-icon}}
                 </div>
-                <div class="phone-info">
-                    <p><img src="{{{mobile-phone-icon-url}}}" alt="img" />{{mobile-phone}}</p>
-                </div>
+                {{#mobile-phone}}
+                    <div class="phone-info">
+                        <p><img src="{{{mobile-phone-icon-url}}}" alt="img"/>{{mobile-phone}}</p>
+                    </div>
+                {{/mobile-phone}}
             </div>
         </div>
     </div>

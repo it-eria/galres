@@ -1,11 +1,14 @@
 {{#mol-mob-contacts-info-main}}
-    <div class="header-contacts-info-mob">
+    <div class="header-contacts-info-mob" >
         <div class="container">
-            <p><img src="{{{mobile-phone-icon-url}}}" alt="img" />{{mobile-phone}}</p>
-            <p>
-                <a href="mailto:akr.balans@gmail.com" class="mr-60"><img src="{{{email-icon}}}" alt="img"/>{{email}}</a>
-            </p>
-            <p><img src="{{{location-icon}}}" alt="img" />{{location}}</p>
+            {{#mobile-phone}}<p><img src="{{{mobile-phone-icon-url}}}" alt="img"/>{{mobile-phone}}</p>{{/mobile-phone}}
+            {{#email}}
+                <p>
+                    <a href="mailto:akr.balans@gmail.com" class="mr-60"><img src="{{{email-icon}}}" alt="img"/>{{email}}
+                    </a>
+                </p>
+            {{/email}}
+            {{#location}}<p><img src="{{{location-icon}}}" alt="img"/>{{location}}</p>{{/location}}
         </div>
     </div>
 {{/mol-mob-contacts-info-main}}
