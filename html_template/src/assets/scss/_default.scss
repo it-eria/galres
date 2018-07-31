@@ -145,3 +145,24 @@ p {
 
 }
 
+.navbar-brand {
+  a {
+    font-size: 0 !important;
+  }
+}
+
+.navbar-brand.current-menu-item {
+  border-bottom: 0 !important;
+}
+
+.advantages-slider__wrapper__item__info  p {
+
+    color: #fff !important;
+
+}
+
+.our-works__content__wrapper__item img {
+  width: 100% !important;
+  height: 240px !important;
+  object-fit: cover !important;
+}

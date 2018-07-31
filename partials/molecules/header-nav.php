@@ -4,38 +4,32 @@
             <nav class="nav-second navbar navbar-expand-md">
                 <div class="navbar-header">
                     <a class="d-sm-block d-md-none d-lg-none" data-toggle="collapse" data-target="#first" href="#" id="menu-burger"><span></span></a>
-                    <a class="navbar-brand d-sm-block d-md-none d-lg-none" href="#"><img class="logotype-img"
-                                                                                             src="assets/img/logotype.png"
+                    <a class="navbar-brand d-sm-block d-md-none d-lg-none" href="<?php echo get_page_link(8); ?>"><img class="logotype-img"
+                                                                                             src="<?php the_field('mobile_logo', 'option'); ?>"
                                                                                              alt="Brand"/></a>
-                    <a class="header-btn-products d-sm-block d-md-none d-lg-none" href="#">Продукція</a>
+                    <a class="header-btn-products d-sm-block d-md-none d-lg-none" href="<?php echo get_page_link(12); ?>"><?php _e('Продукція', 'custom'); ?></a>
                 </div>
                 <div class="collapse navbar-collapse" id="first">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link " href="/">Головна</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="/about">Про компанію</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="/production">Продукція</a>
-                        </li>
-                        <li class=" navbar-brand">
-                            <a class="nav-link d-none d-sm-none d-md-block d-lg-block" href="#">
-                                        <img class="logotype-img" src="assets/img/logotype.png" alt="Brand"/>
-                                    </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="/gallery">Галерея</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="/delivery">Доставка</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="/contact">Контакти</a>
-                        </li>
-
-                    </ul>
+                    <?php
+                    wp_nav_menu( array(
+                        'theme_location'  => '',
+                        'menu'            => '',
+                        'container'       => '',
+                        'container_class' => '',
+                        'container_id'    => '',
+                        'menu_class'      => '',
+                        'menu_id'         => '',
+                        'echo'            => true,
+                        'fallback_cb'     => 'wp_page_menu',
+                        'before'          => '',
+                        'after'           => '',
+                        'link_before'     => '',
+                        'link_after'      => '',
+                        'items_wrap'      => '<ul id="%1$s" class="%2$s navbar-nav">%3$s</ul>',
+                        'depth'           => 0,
+                        'walker'          => '',
+                    ) );
+                    ?>
                 </div>
             </nav>
         </div>

@@ -212,14 +212,6 @@ menu.addEventListener("click", function () {
     this.classList.toggle("active");
 });
 
-// $('#myAffix').affix({
-//     offset: {
-//         top: 100,
-//         bottom: function () {
-//             return (this.bottom = $('.footer').outerHeight(true))
-//         }
-//     }
-// });
 
 
 // Init AOS

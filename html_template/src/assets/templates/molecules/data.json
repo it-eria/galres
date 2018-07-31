@@ -633,5 +633,9 @@
       "zoom-icon": "assets/img/zoom-icon.png",
       "url": "#12"
     }
-  ]
+  ],
+  "mol-title-h2": {
+    "title": true,
+    "subtitle": true
+  }
 }

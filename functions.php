@@ -39,9 +39,27 @@ function special_nav_class($classes, $item)
     return $classes;
 }
 
-add_filter( 'wpcf7_autop_or_not', '__return_false' );
+add_filter('wpcf7_autop_or_not', '__return_false');
 
-function post_remove ()
+function post_remove()
 {
     remove_menu_page('edit.php');
+}
+
+if (function_exists('acf_add_options_page')) {
+
+    acf_add_options_page();
+
+}
+
+add_filter('wp_nav_menu_objects', 'my_wp_nav_menu_objects', 10, 2);
+function my_wp_nav_menu_objects($items, $args)
+{
+    foreach ($items as &$item) {
+        $icon = get_field('menu_icon', $item);
+        if ($icon) {
+            $item->title .= '<img class="logotype-img" src="' . $icon . '" alt="logo" />';
+        }
+    }
+    return $items;
 }
