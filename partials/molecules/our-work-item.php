@@ -12,7 +12,7 @@
 <?php
 
 echo $attr_wrap = get_field('prod_attr')['attr_value'][0];
-$box_attr = $attr_wrap[0]['attr_value'];  ?>
+$box_attr = $attr_wrap[0]['attr_value']; ?>
                 </span></p>
             <p>Ціна: <span><?php $price_wrap = get_field('our_works');
                     $box_price = $price_wrap['prod_price']; echo $box_price; ?></span></p>

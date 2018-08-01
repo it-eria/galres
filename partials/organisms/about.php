@@ -3,3 +3,4 @@
         <?php include get_template_directory() . '/partials/molecules/about-content.php';?>
     </div>
 </section>
+<?php wp_reset_query(); ?>

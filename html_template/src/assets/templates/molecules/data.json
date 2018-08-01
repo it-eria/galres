@@ -637,5 +637,11 @@
   "mol-title-h2": {
     "title": true,
     "subtitle": true
+  },
+  "mol-blue-btn": {
+    "blue-btn-url": "http://google.com",
+    "popup-attr": true,
+    "name-btn": true
   }
 }
+
