@@ -5,7 +5,7 @@
         ?>
         <?php if ($condition_icon): ?>
             <div class="conditions-for-business__wrapper__item col-3 d-flex flex-column text-center "
-                 data-aos="flip-left" data-aos-offset="200">
+                 data-aos="flip-left" data-aos-offset="100">
             <div class="sides-line-style img-cont">
                 <img src="<?php echo $condition_icon; ?>" alt="img"/>
             </div>

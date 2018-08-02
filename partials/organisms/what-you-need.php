@@ -11,7 +11,7 @@
         <?php if (have_rows('what_you_need')): ?>
             <div class="what-you-need__information d-flex justify-content-between align-items-center">
                 <div class="what-you-need__information__description" data-aos="fade-down-right" data-aos-duration="700"
-                     data-aos-offset="200">
+                     data-aos-offset="100">
                     <?php while (have_rows('what_you_need')): the_row();
                         $short_description = get_sub_field('short_description');
                         ?>

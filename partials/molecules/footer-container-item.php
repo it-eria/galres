@@ -55,9 +55,6 @@
             <?php if (!empty($email)): ?><a
                 href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a> <?php endif; ?>
         </div>
-
-
-
         <?php if (have_rows('social_media', 'option')): ?>
             <div class="footer-container__blocks-wrapp__item">
                 <p>
@@ -68,12 +65,14 @@
                     $insta = get_sub_field('instagram', 'option');
                     ?>
                     <a class="d-block" href="<?php echo $fb; ?>"><span><img class="mr-3"
-                                    src="<?php echo get_stylesheet_directory_uri(); ?>/html_template/build/assets/img/footer-icon-fb.png"
-                                    alt="img"/></span><?php _e('Facebook', 'custom'); ?></a>
+                                                                            src="<?php echo get_stylesheet_directory_uri(); ?>/html_template/build/assets/img/footer-icon-fb.png"
+                                                                            alt="img"/></span><?php _e('Facebook', 'custom'); ?>
+                    </a>
 
                     <a class="d-block" href="<?php echo $insta; ?>"><span><img class="mr-3"
-                                    src="<?php echo get_stylesheet_directory_uri(); ?>/html_template/build/assets/img/footer-icon-insta.png"
-                                    alt="img"/></span><?php _e('Instagram', 'custom'); ?></a>
+                                                                               src="<?php echo get_stylesheet_directory_uri(); ?>/html_template/build/assets/img/footer-icon-insta.png"
+                                                                               alt="img"/></span><?php _e('Instagram', 'custom'); ?>
+                    </a>
                 <?php endwhile; ?>
             </div>
         <?php endif; ?>

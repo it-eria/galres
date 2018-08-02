@@ -1,6 +1,6 @@
 <section class="style-404" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/html_template/build/assets/img/about.png);">
     <div class="style-404__container">
-        <div class="title-h2  pb-40 pt-40" data-aos="zoom-out-up" data-aos-offset="200">
+        <div class="title-h2  pb-40 pt-40" data-aos="zoom-out-up" data-aos-offset="100">
             <div class="container d-flex justify-content-center align-items-center flex-column ">
                 <h2 class="text-center"><?php _e('Сторінку не знайдено','custom'); ?></h2>
             </div>

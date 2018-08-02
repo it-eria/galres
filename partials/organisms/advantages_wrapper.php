@@ -1,6 +1,6 @@
 <div class="advantages">
     <div class="container sides-line-style ">
-        <div class="title-h2  pb-40 pt-40" data-aos="zoom-out-up" data-aos-offset="200">
+        <div class="title-h2  pb-40 pt-40" data-aos="zoom-out-up" data-aos-offset="100">
             <div class="container d-flex justify-content-center align-items-center flex-column ">
                 <h2 class="text-center"><?php the_field("advantages_title"); ?></h2>
             </div>

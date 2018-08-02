@@ -4,7 +4,7 @@
             $advantages_icons_title = get_sub_field('advantages_icons_title', 8);
             ?>
             <?php if ($advantages_icon): ?>
-                <div class="advantages__wrapper__item" data-aos="zoom-out" data-aos-offset="200">
+                <div class="advantages__wrapper__item" data-aos="zoom-out" data-aos-offset="100">
                     <?php if ($advantages_icons_title): ?><p><?php echo $advantages_icons_title; ?></p><?php endif; ?>
                     <div class="minw-100 text-center">
                         <img src="<?php echo $advantages_icon; ?>" alt="img"/>

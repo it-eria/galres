@@ -9,7 +9,7 @@
                 <p><?php echo $term->description; ?></p>
                 <div class="vagonchiki-price d-flex justify-content-between align-items-center">
                     <p>Ціна від <span><?php the_field('cat_price', 'products_category_' . $term->term_id);?> грн.</span></p>
-                    <a href="<?php echo get_term_link($term); ?>" class="info">Дізнатись більше</a>
+                    <a href="<?php echo get_term_link($term); ?>" class="info"><?php _e('Дізнатись більше','custom'); ?></a>
                 </div>
 
             </div>

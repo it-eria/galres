@@ -1,5 +1,5 @@
 <?php if (have_rows('short_description_about_our_wagons')): ?>
-    <section class="content-with-lines" data-aos="fade-down" data-aos-duration="400" data-aos-offset="200">
+    <section class="content-with-lines" data-aos="fade-down" data-aos-duration="400" data-aos-offset="100">
         <div class="container">
             <div class="clearfix">
                 <?php while (have_rows('short_description_about_our_wagons')): the_row();

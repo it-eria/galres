@@ -1,4 +1,4 @@
-<section class="gallery-header" data-aos="zoom-in" data-aos-duration="350" data-aos-offset="200">
+<section class="gallery-header" data-aos="zoom-in" data-aos-duration="350" data-aos-offset="100">
     <div class="container">
         <?php
         $current_id = get_the_ID();
@@ -15,8 +15,6 @@
             );
             $wp_query = null;
             $wp_query = new WP_Query($args);
-
-
             if ($wp_query->have_posts()) :
                 while ($wp_query->have_posts()) : $wp_query->the_post();
                     $skew_name = get_the_title();

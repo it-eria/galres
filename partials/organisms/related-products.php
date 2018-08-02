@@ -1,4 +1,4 @@
-<section class="related-products" data-aos="fade-up" data-aos-duration="300" data-aos-offset="200">
+<section class="related-products" data-aos="fade-up" data-aos-duration="300" data-aos-offset="100">
     <div class="container">
         <?php
         $box_title = 'Схожі товари';

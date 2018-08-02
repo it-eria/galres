@@ -14,7 +14,7 @@
                     ?>
                     <?php if ($left_description_about): ?>
                         <div class="col-lg-6 col-sm-12 col-md-12 clearfix mt-4 " data-aos="fade-right"
-                             data-aos-duration="400" data-aos-offset="200">
+                             data-aos-duration="400" data-aos-offset="100">
                             <div class="separator mb-3 mt-3 mt-lg-3"></div>
                             <div class="description-about">
                                 <?php echo $left_description_about; ?>
@@ -24,7 +24,7 @@
                     <?php endif; ?>
                     <?php if ($right_description_about): ?>
                         <div class="col-lg-6 col-sm-12 col-md-12 mt-5 clearfix " data-aos="fade-left"
-                             data-aos-duration="400" data-aos-offset="200">
+                             data-aos-duration="400" data-aos-offset="100">
                             <div class="separator mb-3 mt-3 mt-lg-3 float-right d-none d-lg-block"></div>
                             <div class="description-about d-inline-block ">
                                 <?php echo $right_description_about; ?>

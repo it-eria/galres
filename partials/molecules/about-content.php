@@ -8,7 +8,6 @@ $wp_query = new WP_Query($args); ?>
 <?php if ($wp_query->have_posts()) : ?>
     <div class="row">
         <div class="col-12 col-lg-6"><?php while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-
                 <div class="title-about">
                     <h2><?php the_title(); ?></h2>
                 </div>
@@ -29,5 +28,4 @@ $wp_query = new WP_Query($args); ?>
         </div>
     </div>
 <?php endif; ?>
-
 <?php wp_reset_query(); ?>

@@ -1,5 +1,5 @@
 <?php if (have_rows('about_our_wagons')): ?>
-    <section class="about-our-wagons" data-aos="fade-up" data-aos-duration="400" data-aos-offset="200">
+    <section class="about-our-wagons" data-aos="fade-up" data-aos-duration="400" data-aos-offset="100">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6">

@@ -10,7 +10,17 @@ $color-blue: #0a1c2e;
   overflow: hidden;
 }
 
-body {
+section {
+  overflow: hidden;
+  max-width: 100%
+}
+
+.fade-right, .fade-left {
+  overflow: hidden;
+}
+
+.flip-container{overflow:hidden}
+body, html {
   overflow-x: hidden;
 }
 
@@ -158,6 +168,10 @@ body {
 }
 
 @media screen and (max-width: 992px) {
+  .category-wrapper__item img {
+    width: 100% !important;
+    height: 100vh !important;
+  }
   .style-404 {
     height: calc(100vh - 152px) !important;
   }
@@ -219,22 +233,8 @@ body {
     display: none !important;
   }
 
-  .category-skew {
-    background-color: #fff !important;
-  }
 
-  .category-skew {
-    .color-white {
 
-      h2 {
-        color: #000 !important;
-      }
-
-      span {
-        color: #000 !important;
-      }
-    }
-  }
 
   .category-wrapper__item p {
     color: #000;
@@ -251,7 +251,7 @@ body {
     max-width: none !important;
   }
   .category-wrapper__item img {
-    width: 100% !important;
+
     max-width: none !important;
 
     margin: 10px !important;
@@ -1227,6 +1227,10 @@ body {
 }
 
 @media screen and (max-width: 992px) {
+  .category-wrapper__item p {
+
+    font-weight: 600;
+  }
 
   .separator {
     width: 40% !important;
@@ -1431,7 +1435,7 @@ body {
 
 .about-materials {
   padding: 50px 0;
-  &:nth-child(even) {
+  &:nth-child(odd) {
     background-color: $color-blue;
     .materials-block {
       flex-direction: row-reverse;
@@ -2005,4 +2009,8 @@ body {
     border-bottom: 2px solid #1d6bb5;
     transition: all .2s ease-in-out;
   }
+}
+
+.aos-animate {
+  overflow: hidden !important;
 }

@@ -4,7 +4,7 @@
         $description = get_sub_field('description');
         $image = get_sub_field('image');
         ?>
-        <section class="about-materials " data-aos-duration="400" data-aos-offset="200" data-aos="zoom-in">
+        <section class="about-materials " data-aos-duration="400" data-aos-offset="100" data-aos="zoom-in">
             <div class="container">
                 <div class="materials-block d-lg-flex d-block justify-content-between align-items-center">
                     <div class="col-lg-6 col-12 clearfix">

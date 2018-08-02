@@ -4,7 +4,7 @@ $box_subtitle = get_field('site_sub_slug', 'option');
 $custom_class = '';
 include get_template_directory() . '/partials/molecules/title-h2.php';
 ?>
-    <section class="vagonchiki" data-aos="zoom-in" data-aos-offset="250">
+    <section class="vagonchiki" data-aos="zoom-in" data-aos-offset="100">
         <?php
         $terms = get_terms('products_category', array(
             'hide_empty' => false,

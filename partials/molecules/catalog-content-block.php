@@ -1,5 +1,5 @@
 <?php if ($description): ?>
-    <div data-aos="flip-up" data-aos-duration="350" data-aos-offset="200"
+    <div data-aos="flip-up" data-aos-duration="350" data-aos-offset="100"
          class="catalog-content__info-container__item mb-80 d-flex align-items-center clearfix">
         <div class="col-lg-6 col-12 clearfix p-0 ">
             <div class="separator mb-3 mt-3 mt-lg-3 d-lg-block d-none"></div>
