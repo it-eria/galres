@@ -17,7 +17,7 @@ if ($images): ?>
                     </div>
                 <?php endforeach; ?>
             </div>
-            <a href="<?php the_permalink(14); ?>"
+            <a href="<?php the_permalink(252); ?>"
                class="about-btn m-auto pt-2 pb-2 justify-content-center"><?php _e('Побачити більше', 'custom'); ?></a>
         </div>
     </section>
