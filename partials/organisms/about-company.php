@@ -25,7 +25,6 @@
                     <?php if ($right_description_about): ?>
                         <div class="col-lg-6 col-sm-12 col-md-12 mt-5 clearfix " data-aos="fade-left"
                              data-aos-duration="400" data-aos-offset="200">
-
                             <div class="separator mb-3 mt-3 mt-lg-3 float-right d-none d-lg-block"></div>
                             <div class="description-about d-inline-block ">
                                 <?php echo $right_description_about; ?>
@@ -36,6 +35,5 @@
                 <?php endwhile; ?>
             </div>
         <?php endif; ?>
-        <?php include get_template_directory() . '/partials/organisms/advantages_wrapper.php';?>
     </div>
 </section>

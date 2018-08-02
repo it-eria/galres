@@ -11,7 +11,7 @@ $color-blue: #0a1c2e;
 }
 
 body {
-  overflow-x:hidden;
+  overflow-x: hidden;
 }
 
 .title-h2 {
@@ -1533,6 +1533,7 @@ body {
     margin: 10px 10px;
     flex: 0 0 18%;
     max-width: 295px;
+    min-height: 260px;
     overflow: hidden;
     cursor: pointer;
     &:hover {
@@ -1556,11 +1557,11 @@ body {
 
     img {
       width: auto;
-      max-width: 305px;
       transform: skew(10deg, 0deg);
       position: relative;
       padding: 0;
       left: -7%;
+      max-height: 230px;
     }
   }
 }
@@ -1667,6 +1668,7 @@ body {
   .header-main-img {
     width: 100%;
     max-height: 590px;
+    object-fit: cover;
   }
 
   &__wrapper {
@@ -1998,3 +2000,9 @@ body {
   }
 }
 
+.category-wrapper__item.active-item {
+  p {
+    border-bottom: 2px solid #1d6bb5;
+    transition: all .2s ease-in-out;
+  }
+}

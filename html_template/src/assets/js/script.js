@@ -213,6 +213,13 @@ menu.addEventListener("click", function () {
 });
 
 
+$('#order-btn').on('click',function(){
+    var price = $(this).attr('data-price');
+    $('#order-value').val(price);
+
+});
+
+
 
 // Init AOS
 AOS.init();

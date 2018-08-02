@@ -2,6 +2,7 @@
 <?php get_header(); ?>
 <?php get_template_part("partials/organisms/about-header-image"); ?>
 <?php get_template_part("partials/organisms/about-company"); ?>
+<?php include get_template_directory() . '/partials/organisms/advantages_wrapper.php';?>
 <?php get_template_part("partials/organisms/about-our-wagons"); ?>
 <?php get_template_part("partials/organisms/about-materials"); ?>
 <?php get_template_part("partials/organisms/gallery"); ?>

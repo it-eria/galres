@@ -7,36 +7,34 @@
         ?>
         <div class="related-products__wrapper d-flex flex-wrap align-items-start">
             <?php
+            $terms = wp_get_post_terms($post->ID, 'products_category');
+            $terms_ids = [];
+            foreach ($terms as $term) {
+                $terms_ids[] = $term->term_id;
+            }
+            $currentID = get_the_ID();
+            $args = array(
+                'post_type' => 'productions',
+              'post__not_in' => array($currentID),
 
-$terms = wp_get_post_terms( $post->ID, 'products_category');
-$terms_ids = [];
+                'tax_query' => array(
+                    'relation' => 'AND',
+                    array(
+                        'taxonomy' => 'products_category',
+                        'field' => 'term_id',
+                        'terms' => $terms_ids
+                    )
+                ),
+            );
+            $query = new WP_Query($args);
 
-foreach ( $terms as $term ) {
-    $terms_ids[] = $term->term_id;
-}
-
-$args = array(
-    'post_type' => 'productions',
-    'tax_query' => array(
-        'relation' => 'AND',
-        array(
-            'taxonomy' => 'products_category',
-            'field'    => 'term_id',
-            'terms'    => $terms_ids
-        )
-    ),
-);
-
-$query = new WP_Query($args);
-
-if ( $query->have_posts() ) {
-    while ( $query->have_posts() ) {
-        $query->the_post();
-include get_template_directory() . '/partials/molecules/our-work-item.php';
-
-    }
-} ?>
-
+            if ($query->have_posts()) {
+                while ($query->have_posts()) {
+                    $query->the_post();
+                    include get_template_directory() . '/partials/molecules/our-work-item.php';
+                }
+            } ?>
         </div>
     </div>
 </section>
+<?php wp_reset_query(); ?>

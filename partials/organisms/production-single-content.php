@@ -28,7 +28,7 @@
                                     <strong><?php _e('Ціна:', 'custom'); ?></strong>
                                     <p><?php echo $prod_price; ?></p>
                                 </div>
-                                <a href="javascript:void(0)" data-toggle="modal" data-target="#exampleModalCenter"
+                                <a id="order-btn" href="javascript:void(0)" data-toggle="modal" data-price="<?php echo $prod_price; ?>" data-target="#exampleModalCenter"
                                    class="blue-btn"><?php _e('Замовити', 'custom'); ?></a>
                             </div>
                         </div>

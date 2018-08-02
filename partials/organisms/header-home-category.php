@@ -15,3 +15,4 @@ include get_template_directory() . '/partials/molecules/title-h2.php';
         ?>
     </section>
 <?php get_template_part('partials/molecules/mob-contacts-info-main'); ?>
+<?php wp_reset_query(); ?>

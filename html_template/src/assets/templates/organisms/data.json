@@ -945,5 +945,75 @@
       "blue-btn-url": "http://g111.com",
       "name-btn": "Головна"
     }
+  },
+  "org-gallery-header": {
+    "mol-title-h2": {
+      "title": "Виробництво та продаж каркасних мобільних споруд",
+      "subtitle": "Якісно!  Недорого!  Швидко!",
+      "color-white": "color-white"
+    },
+    "mol-category-skew-item": [
+      {
+        "img": "assets/img/gal-1.jpg",
+        "title": "Пости охорони",
+        "url": "http://google.com",
+        "white-color": "white-color"
+      },
+      {
+        "img": "assets/img/gal-2.jpg",
+        "title": "Торгові будки",
+        "url": "http://google.com",
+        "white-color": "white-color"
+      },
+      {
+        "img": "assets/img/gal-3.jpg",
+        "title": "Будівельні вагони",
+        "url": "http://google.com",
+        "white-color": "white-color"
+      },
+      {
+        "img": "assets/img/gal-4.jpg",
+        "title": "Дачні будиночки",
+        "url": "http://google.com",
+        "white-color": "white-color"
+      },
+      {
+        "img": "assets/img/gal-5.jpg",
+        "title": "Вагони для бізнесу",
+        "url": "http://google.com",
+        "white-color": "white-color"
+      },
+      {
+        "img": "assets/img/gal-1.jpg",
+        "title": "Пости охорони",
+        "url": "http://google.com",
+        "white-color": "white-color"
+      },
+      {
+        "img": "assets/img/gal-2.jpg",
+        "title": "Торгові будки",
+        "url": "http://google.com",
+        "white-color": "white-color"
+      },
+      {
+        "img": "assets/img/gal-3.jpg",
+        "title": "Будівельні вагони",
+        "url": "http://google.com",
+        "white-color": "white-color"
+      },
+      {
+        "img": "assets/img/gal-4.jpg",
+        "title": "Дачні будиночки",
+        "url": "http://google.com",
+        "white-color": "white-color"
+      },
+      {
+        "img": "assets/img/gal-5.jpg",
+        "title": "Вагони для бізнесу",
+        "url": "http://google.com",
+        "white-color": "white-color"
+      }
+    ]
   }
 }
+
