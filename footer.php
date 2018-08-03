@@ -1,6 +1,15 @@
-<?php get_template_part("partials/organisms/footer-container"); ?>
-<?php get_template_part("partials/organisms/gmap"); ?>
-<?php get_template_part("partials/molecules/copyright"); ?>
+<?php
+if( is_page( 18 ) ){
+    get_template_part("partials/organisms/footer-container");
+    get_template_part("partials/molecules/copyright");
+}
+else {
+    get_template_part("partials/organisms/footer-container");
+    get_template_part("partials/organisms/gmap");
+    get_template_part("partials/molecules/copyright");
+}
+?>
+
 <!-- Jquery -->
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/html_template/build/assets/js/vendors/jquery-3.3.1.js"></script>
 <!-- Slick slider -->

@@ -6,8 +6,15 @@ include get_template_directory() . '/partials/molecules/title-h2.php';
 ?>
     <section class="vagonchiki" data-aos="zoom-in" data-aos-offset="100">
         <?php
+        if( is_front_page() ) {
+            $counter = '5';
+        }
+        else {
+            $counter = 'all';
+        }
         $terms = get_terms('products_category', array(
             'hide_empty' => false,
+            'number' => $counter
         ));
         foreach ($terms as $term) {
             include get_template_directory() . '/partials/molecules/header-home-category-item.php';

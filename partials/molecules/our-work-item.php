@@ -3,11 +3,7 @@
     <div class="p-3 blue-bg position-relative">
         <h3><?php the_title(); ?></h3>
         <div class="d-flex justify-content-between align-items-center ">
-            <p>Розмір: <span>
-<?php
-echo $attr_wrap = get_field('prod_attr')['attr_value'][0];
-$box_attr = $attr_wrap[0]['attr_value']; ?>
-                </span></p>
+            <p>Розмір: <span><?php echo get_field('our_works')['prod_attr'][0]['attr_value']; ?></span></p>
             <p>Ціна: <span><?php $price_wrap = get_field('our_works');
                     $box_price = $price_wrap['prod_price']; echo $box_price; ?></span></p>
         </div>

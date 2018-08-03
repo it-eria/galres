@@ -1,3 +1,8 @@
+<?php
+if( is_page( get_the_ID() !== 12 ) ){
+    $id_name = '-none';
+}
+?>
 <section class="our-works">
     <div class="container">
         <div class="title-h2  pb-40 pt-40" data-aos="zoom-out-up" data-aos-offset="100">
@@ -25,8 +30,10 @@
                     endwhile; ?>
                 </div>
             </div>
-            <a class="show-more-button mt-5"
+
+            <a class="show-more-button mt-5 d<?php echo $id_name; ?>"
                href="<?php echo get_page_link(12); ?>"><?php _e('Побачити більше', 'custom'); ?></a>
+
         <?php endif; ?>
     </div>
 </section>

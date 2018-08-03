@@ -1,4 +1,7 @@
 
     <?php foreach ($images as $image): ?>
-        <div style="background-image: url(<?php echo $image['url']; ?>);"></div>
+        <div>
+                <img src="<?php echo $image['url']; ?>" alt="img" />
+
+        </div>
     <?php endforeach; ?>

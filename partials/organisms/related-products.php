@@ -16,13 +16,16 @@
             $args = array(
                 'post_type' => 'productions',
               'post__not_in' => array($currentID),
+                'posts_per_page' => 4,
+
 
                 'tax_query' => array(
                     'relation' => 'AND',
                     array(
                         'taxonomy' => 'products_category',
                         'field' => 'term_id',
-                        'terms' => $terms_ids
+                        'terms' => $terms_ids,
+
                     )
                 ),
             );

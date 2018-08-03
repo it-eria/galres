@@ -8,12 +8,16 @@ if ($images): ?>
             $box_title = __('Галерея', 'custom');
             $box_subtitle = get_field('site_sub_slug');
             $custom_class = 'color-white';
+            $current_id = get_the_ID();
             include get_template_directory() . '/partials/molecules/title-h2.php';
             ?>
             <div class="gallery-container__wrapper d-md-flex align-items-start justify-content-center">
                 <?php foreach ($images as $image): ?>
                     <div class="gallery-container__wrapper__item">
-                        <?php echo wp_get_attachment_image($image['ID'], $size); ?>
+
+                        <a data-rel="lightbox-gallery-<?php echo $current_id; ?>" data-lightbox-gallery="lightbox-gallery-<?php echo $current_id; ?>" href="<?php echo $image['url']; ?>">
+                            <img  src="<?php echo $image['url']; ?>" alt="<?php echo $image['alt']; ?>" />
+                        </a>
                     </div>
                 <?php endforeach; ?>
             </div>
