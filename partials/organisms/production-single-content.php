@@ -37,6 +37,7 @@
                 <div class="slider nav-slider-production mtop-20">
                     <?php include get_template_directory() . '/partials/molecules/single-slides.php'; ?>
                 </div>
+                <?php the_content(); ?>
             <?php endwhile; ?>
         </div>
     </section>

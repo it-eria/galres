@@ -667,8 +667,8 @@ body, html {
   border-radius: 0;
   .advantages-logo {
     position: absolute;
-    left: 50%;
-    top: 50%;
+    left: 52%;
+    top: 48%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     font-size: 3.125rem;
@@ -1901,17 +1901,27 @@ span.wpcf7-not-valid-tip {
         }
       }
       .gallery-mask {
-        background-color: rgba(0, 0, 0, .5);
+        background-color: rgba(0,0,0,.5);
         position: absolute;
-        width: auto;
+        width: 100%;
         opacity: 0;
+        -webkit-transition: all .2s ease-in-out;
         transition: all .2s ease-in-out;
         height: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        left: 15px;
+        left: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         right: 15px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
         justify-content: center;
         top: 0;
         bottom: 0;
@@ -2028,7 +2038,6 @@ span.wpcf7-not-valid-tip {
   div.wpcf7-mail-sent-ok, div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
     color: #fff !important;
   }
-
 }
 
 
@@ -2048,3 +2057,6 @@ span.wpcf7-not-valid-tip {
   }
 }
 
+.our-works__content__wrapper__item img {
+  max-width: 263px !important;
+}

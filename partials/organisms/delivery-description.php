@@ -22,7 +22,7 @@ include get_template_directory() . '/partials/molecules/title-h2.php';
                 </div>
             </div>
             <div class="col-lg-6 col-12" data-aos="fade-left" data-aos-duration="400" data-aos-offset="100"
-                 style="background-image: url(<?php the_field('img_for_delivery_description'); ?>); background-size: cover; background-repeat: no-repeat; min-height: 200px;">
+                 style="background-image: url(<?php the_field('img_for_delivery_description'); ?>); background-size: contain; background-repeat: no-repeat; min-height: 200px;">
             </div>
         </div>
     </div>

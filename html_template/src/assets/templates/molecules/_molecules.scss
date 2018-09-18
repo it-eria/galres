@@ -354,6 +354,18 @@ $color-blue: #0a1c2e;
   text-align: left;
 }
 
+.view ul {
+  padding-left: 20px;
+}
+
+.view ul li {
+  font-size: 1rem;
+  position: relative;
+  color: #fff;
+  padding: 0;
+  text-align: left;
+}
+
 .view a.info {
   display: inline-block;
   text-decoration: none;
@@ -391,6 +403,11 @@ $color-blue: #0a1c2e;
   opacity: 0;
   transition: all 0.2s linear;
 }
+.view-first ul li {
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 0.2s linear;
+}
 
 .view-first a.info {
   opacity: 0;
@@ -418,12 +435,14 @@ $color-blue: #0a1c2e;
 
 .view-first:hover h2,
 .view-first:hover p,
+.view-first:hover ul,
+.view-first:hover ul li,
 .view-first:hover a.info {
   opacity: 1;
   transform: translateY(0px);
 }
 
-.view-first:hover p {
+.view-first:hover p, .view-first:hover ul li {
   transition-delay: .3s;
 }
 
@@ -440,6 +459,7 @@ $color-blue: #0a1c2e;
   }
 
 
+
   a.info {
     background-color: #1F6BFF;
     font-size: 1rem;
@@ -454,7 +474,7 @@ $color-blue: #0a1c2e;
   padding-bottom: 20px;
   &__wrapper {
     width: 100%;
-    max-width: 650px;
+    max-width: 720px;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -470,8 +490,8 @@ $color-blue: #0a1c2e;
       display: block;
       position: absolute;
       content: '';
-      left: 50%;
-      top: 50%;
+      left: 51%;
+      top: 48%;
       -webkit-transform: translate(-50%,-50%);
       transform: translate(-50%,-50%);
       border-radius: 50%;
@@ -492,7 +512,7 @@ $color-blue: #0a1c2e;
           margin: 0;
         }
         p {
-          margin-bottom: 10px;
+          margin: 0 auto 10px;
         }
       }
 
@@ -525,7 +545,7 @@ $color-blue: #0a1c2e;
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 33px 0 10px;
+        margin: 10px 0 10px;
 
         p {
           text-align: right;
@@ -551,14 +571,18 @@ $color-blue: #0a1c2e;
         text-align: center;
         flex-direction: column-reverse !important;
         margin: 0;
+        p {
+          margin: 10px auto 0;
+        }
       }
       p {
         font-size: 1.125rem;
-        font-family: "PT Sans", sans-serif;
-        color: $color-blue;
+        font-family: "PT Sans",sans-serif;
+        color: #0a1c2e;
         font-weight: 600;
         margin-top: 10px;
-        min-width: 130px;
+        max-width: 165px;
+        /* min-width: 130px; */
       }
 
       img {

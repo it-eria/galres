@@ -22,8 +22,8 @@ else {
 <script>
     function initMap() {
         var coords = {
-            lat: 49.813485,
-            lng: 24.063913
+            lat: 49.811559,
+            lng: 24.064375
         };
         var map = new google.maps.Map(document.getElementById('map'), {
             zoom: 17,
